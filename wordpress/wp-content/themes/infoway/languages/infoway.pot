@@ -1,0 +1,1277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Infoway\n"
+"POT-Creation-Date: 2015-09-02 13:23+0530\n"
+"PO-Revision-Date: 2015-09-02 13:23+0530\n"
+"Last-Translator: Urooj Khan <uroojkhan171@gmail.com>\n"
+"Language-Team: InkThemes <inkthemes@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_n_noop;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:26
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:45
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:48 author.php:59 blog.php:74 category.php:33 search.php:43
+#: tag.php:25
+msgid "&larr; Older posts"
+msgstr ""
+
+#: archive.php:50 author.php:61 blog.php:76 category.php:35 search.php:45
+#: tag.php:27
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: attachment.php:15
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:18
+#, php-format
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:23
+#, php-format
+msgid "By %2$s"
+msgstr ""
+
+#: attachment.php:29
+#, php-format
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:35
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:35
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:40 attachment.php:91
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:88
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:89 loop.php:33 page.php:30 single.php:37
+msgid "Pages:"
+msgstr ""
+
+#: author.php:12
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:38
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: blog.php:35 loop.php:20
+msgid "No Comments."
+msgstr ""
+
+#: blog.php:35 loop.php:20
+msgid "One Comment."
+msgstr ""
+
+#: blog.php:35 loop.php:20
+msgid "% Comments."
+msgstr ""
+
+#: blog.php:54 front-page.php:50 front-page.php:65 front-page.php:80
+#: loop.php:34
+msgid "Read More"
+msgstr ""
+
+#: blog.php:66 loop.php:44 single.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: category.php:13
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:1
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:1
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:1
+msgid "One Response"
+msgstr ""
+
+#: comments.php:1
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:1
+msgid "so far."
+msgstr ""
+
+#: comments.php:1
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:1
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:1
+msgid "You must be"
+msgstr ""
+
+#: comments.php:1
+msgid "logged in"
+msgstr ""
+
+#: comments.php:1
+msgid "to post a comment."
+msgstr ""
+
+#: footer.php:40
+msgid "Infoway Theme"
+msgstr ""
+
+#: footer.php:40
+msgid " powered by <a href=\"http://www.wordpress.org\">WordPress</a>"
+msgstr ""
+
+#: front-page.php:27
+msgid ""
+"No Cost, Free To Use & With Single Click Installation. Use Infoway Now & "
+"Make beautiful Website &amp; Astonish Everyone."
+msgstr ""
+
+#: front-page.php:42
+msgid "Easy to Customize"
+msgstr ""
+
+#: front-page.php:47
+msgid ""
+"An Infoway is a WordPress theme which is easily customizable. You can "
+"customize the theme as per your requirement. The theme provides an exiting "
+"benefit to your websites. It also features a clean design and sure you will "
+"be more happier to use it"
+msgstr ""
+
+#: front-page.php:57
+msgid "Build Site Quickly"
+msgstr ""
+
+#: front-page.php:62
+msgid ""
+"The Infoway Wordpress Theme is highly optimized for speed, so that your "
+"website loads faster as compared to others. The themes is compatible with "
+"all major browsers. Also it provides eye captivating appearance to your "
+"website."
+msgstr ""
+
+#: front-page.php:72
+msgid "Search Optimized"
+msgstr ""
+
+#: front-page.php:77
+msgid ""
+"A Premium WordPress Theme with single click installation. Just a click and "
+"your website is ready to use. Infoway theme is better suitable for any "
+"business or personal website. The theme is compatible with various niches."
+msgstr ""
+
+#: front-page.php:108
+msgid "What Our Clients Say"
+msgstr ""
+
+#: front-page.php:113
+msgid ""
+"Infoway was one of the most easiest theme to work with. My Clients loved "
+"their websites built using Infoway Theme. I highly recommend it to anyone "
+"want to build a business site."
+msgstr ""
+
+#: functions/admin-interface.php:20
+msgid "Theme Options"
+msgstr ""
+
+#: functions/admin-interface.php:68
+msgid "Get InfoWay Theme PRO!"
+msgstr ""
+
+#: functions/admin-interface.php:69
+msgid ""
+"You are Using the Lite Version of InfoWay Theme. Upgrade to Pro for extra "
+"features like Lead Capture Integration, Home Page Slider, Contact Page, "
+"Gallery Page, FullWidth Page Templates, Multiple Color Options and much more."
+msgstr ""
+
+#: functions/admin-interface.php:70
+msgid "Upgrade to Infoway PRO Theme here >>"
+msgstr ""
+
+#: functions/admin-interface.php:74
+msgid "Options Updated"
+msgstr ""
+
+#: functions/admin-interface.php:77
+msgid "Options Reset"
+msgstr ""
+
+#: functions/admin-interface.php:83
+msgid " Options"
+msgstr ""
+
+#: functions/admin-interface.php:105
+msgid "Save All Changes"
+msgstr ""
+
+#: functions/admin-interface.php:109
+msgid "Reset Options"
+msgstr ""
+
+#: functions/admin-interface.php:110
+msgid "reset"
+msgstr ""
+
+#: functions/admin-interface.php:808
+msgid "Upload Image"
+msgstr ""
+
+#: functions/admin-interface.php:814
+msgid "Remove"
+msgstr ""
+
+#: functions/infoway-functions.php:36
+msgid "Main Menu"
+msgstr ""
+
+#: functions/infoway-functions.php:57 functions/infoway-functions.php:59
+#: functions/infoway-functions.php:70
+msgid "Home"
+msgstr ""
+
+#: functions/infoway-functions.php:85
+msgid "Archive by category"
+msgstr ""
+
+#: functions/infoway-functions.php:133
+msgid "Search results for"
+msgstr ""
+
+#: functions/infoway-functions.php:135
+msgid "Posts tagged "
+msgstr ""
+
+#: functions/infoway-functions.php:139
+msgid "Articles posted by "
+msgstr ""
+
+#: functions/infoway-functions.php:141
+msgid "Error 404"
+msgstr ""
+
+#: functions/infoway-functions.php:146
+msgid "Page"
+msgstr ""
+
+#: functions/infoway-functions.php:164
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the "
+msgstr ""
+
+#: functions/infoway-functions.php:164 functions/infoway-functions.php:166
+#: functions/infoway-functions.php:168
+msgid "permalink"
+msgstr ""
+
+#: functions/infoway-functions.php:166
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the "
+msgstr ""
+
+#: functions/infoway-functions.php:168
+msgid "Bookmark the "
+msgstr ""
+
+#: functions/infoway-functions.php:194
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:196
+msgid "The primary widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:204
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:206
+msgid "The secondary widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:214
+msgid "Home Page Right Feature Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:216
+msgid "The Home Page Right Feature widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:224
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:226
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:234
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:236
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:244
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:246
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:254
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions/infoway-functions.php:256
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions/infoway-functions.php:426
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:52
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:53
+#: functions/plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:54
+#: functions/plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:55
+#: functions/plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:57
+#, php-format
+msgid ""
+"This theme recommends the following plugin to add lead form on landing page: "
+"%1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:60
+#: functions/plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:63
+#: functions/plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:66
+#: functions/plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:69
+#: functions/plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:72
+#: functions/plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:75
+#, php-format
+msgid ""
+"This theme recommends the following plugin to add lead form on landing page "
+"is currently inactive: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:78
+#: functions/plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:81
+#: functions/plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:84
+#: functions/plugin-activation.php:383
+msgid "Begin installing plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:87
+#: functions/plugin-activation.php:388
+msgid "Begin updating plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:90
+#: functions/plugin-activation.php:393
+msgid "Begin activating plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:92
+#: functions/plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:93
+#: functions/plugin-activation.php:399 functions/plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:94
+#: functions/plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:95
+#: functions/plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:96
+#: functions/plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:97
+#: functions/plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:98
+#: functions/plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: functions/plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/plugin-activation.php:1116 functions/plugin-activation.php:2828
+msgid "and"
+msgstr ""
+
+#: functions/plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: functions/plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: functions/plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: functions/plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: functions/plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: functions/plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: functions/plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: functions/plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: functions/plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: functions/plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: functions/plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: functions/plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/theme-options.php:16
+msgid "On"
+msgstr ""
+
+#: functions/theme-options.php:16
+msgid "Off"
+msgstr ""
+
+#: functions/theme-options.php:26
+msgid "Select a page:"
+msgstr ""
+
+#: functions/theme-options.php:34
+msgid "General Settings"
+msgstr ""
+
+#: functions/theme-options.php:36
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/theme-options.php:37
+msgid "Choose your own logo. Optimal Size: 300px Wide by 90px Height."
+msgstr ""
+
+#: functions/theme-options.php:40
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/theme-options.php:41
+msgid "Specify a 16px x 16px image that will represent your website's favicon."
+msgstr ""
+
+#: functions/theme-options.php:44
+msgid "Body Background Image"
+msgstr ""
+
+#: functions/theme-options.php:45
+msgid "Select image to change your website background"
+msgstr ""
+
+#: functions/theme-options.php:49
+msgid "Top Right Contact Details"
+msgstr ""
+
+#: functions/theme-options.php:50
+msgid "Enter your contact detail/number to display it at the top right corner."
+msgstr ""
+
+#: functions/theme-options.php:54
+msgid "Contact No."
+msgstr ""
+
+#: functions/theme-options.php:55
+msgid ""
+"Enter your contact number on which you want to receive call's \n"
+"\t\t\t(Feature active only when site is viewed on moblie devices).\n"
+"\t\t\texample: +91-1800-548-783"
+msgstr ""
+
+#: functions/theme-options.php:62
+msgid "Top Infobar Settings"
+msgstr ""
+
+#: functions/theme-options.php:64
+msgid "Top Infobar Text"
+msgstr ""
+
+#: functions/theme-options.php:65
+msgid "Enter your Text"
+msgstr ""
+
+#: functions/theme-options.php:69
+msgid "Top Infobar button text"
+msgstr ""
+
+#: functions/theme-options.php:70
+msgid "Enter your sitename"
+msgstr ""
+
+#: functions/theme-options.php:74
+msgid "Top Infobar Button Click Url"
+msgstr ""
+
+#: functions/theme-options.php:75
+msgid "Enter your siteurl"
+msgstr ""
+
+#: functions/theme-options.php:79
+msgid "Home page Image Section Starts From Here."
+msgstr ""
+
+#: functions/theme-options.php:82
+msgid "Upload Home Page Image"
+msgstr ""
+
+#: functions/theme-options.php:83
+msgid ""
+"Choose Image for Top feature Area. Optimal size is 950px wide and 363px "
+"height."
+msgstr ""
+
+#: functions/theme-options.php:87
+msgid "Home Page Image Link"
+msgstr ""
+
+#: functions/theme-options.php:88
+msgid "Enter yout link url for Home page image"
+msgstr ""
+
+#: functions/theme-options.php:93
+msgid "Feature Settings"
+msgstr ""
+
+#: functions/theme-options.php:95
+msgid "Feature Page Heading"
+msgstr ""
+
+#: functions/theme-options.php:96
+msgid ""
+"Enter your text for Feature page heading. (just below the slider section)"
+msgstr ""
+
+#: functions/theme-options.php:100
+msgid "Front Page Feature Section Starts From Here."
+msgstr ""
+
+#: functions/theme-options.php:104
+msgid "First Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:105
+msgid "Enter your text for first col heading."
+msgstr ""
+
+#: functions/theme-options.php:109
+msgid "First Feature Description"
+msgstr ""
+
+#: functions/theme-options.php:110
+msgid "Enter your text description."
+msgstr ""
+
+#: functions/theme-options.php:114
+msgid "First Feature Link URL"
+msgstr ""
+
+#: functions/theme-options.php:115
+msgid "Enter your link url for first feature section."
+msgstr ""
+
+#: functions/theme-options.php:120
+msgid "Second Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:121
+msgid "Enter your text for second Feature heading."
+msgstr ""
+
+#: functions/theme-options.php:125
+msgid "Second Feature Description"
+msgstr ""
+
+#: functions/theme-options.php:126
+msgid "Enter your text for second Feature description."
+msgstr ""
+
+#: functions/theme-options.php:130
+msgid "Second Feature Link URL"
+msgstr ""
+
+#: functions/theme-options.php:131
+msgid "Enter your link url for Second feature section."
+msgstr ""
+
+#: functions/theme-options.php:136
+msgid "Third Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:137
+msgid "Enter your text for Third Feature heading."
+msgstr ""
+
+#: functions/theme-options.php:141
+msgid "Third Feature Description"
+msgstr ""
+
+#: functions/theme-options.php:142
+msgid "Enter your text for Third Feature description."
+msgstr ""
+
+#: functions/theme-options.php:146
+msgid "Third Feature Link URL"
+msgstr ""
+
+#: functions/theme-options.php:147
+msgid "Enter your link url for fourth Feature section."
+msgstr ""
+
+#: functions/theme-options.php:151
+msgid "Bottom Feature Start From Here."
+msgstr ""
+
+#: functions/theme-options.php:154
+msgid "Testimonial Heading"
+msgstr ""
+
+#: functions/theme-options.php:155
+msgid "Enter your text Testimonial Heading."
+msgstr ""
+
+#: functions/theme-options.php:159
+msgid "Testimonial Description"
+msgstr ""
+
+#: functions/theme-options.php:160
+msgid "Enter your text Testimonial Description."
+msgstr ""
+
+#: functions/theme-options.php:167
+msgid "Styling Options"
+msgstr ""
+
+#: functions/theme-options.php:169
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/theme-options.php:170
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: functions/themes-page.php:12
+msgid "InkThemes Themes"
+msgstr ""
+
+#: functions/themes-page.php:42
+msgid "Colorway Theme"
+msgstr ""
+
+#: functions/themes-page.php:46
+msgid ""
+"The best thing about Colorway Theme is the ease with the help of which you "
+"can convert your Website in various different Niches. &#8220;Your Clients "
+"Would Love Their Site & You Would smile in the back thinking about the Time "
+"That You Spend Building their Sites.&#8221;"
+msgstr ""
+
+#: functions/themes-page.php:48
+msgid ""
+"Colorway   Theme is perfect for quick and easy blogging with a clean and "
+"modern interface and tons of features. The layout does not distract from "
+"your content, which is vital for a site devoted to business & blogging. <br /"
+"><br />"
+msgstr ""
+
+#: functions/themes-page.php:51
+msgid "Buy Colorway Theme"
+msgstr ""
+
+#: functions/themes-page.php:55
+msgid "Try Colorway Lite for FREE"
+msgstr ""
+
+#: functions/themes-page.php:69
+msgid "Local Business Theme"
+msgstr ""
+
+#: functions/themes-page.php:73
+msgid ""
+"Local business theme is important for businesses to generate more leads. It "
+"captures visitor&#8217;s details so that business owners can convert them "
+"into their customers later.   This theme is suitable for all types of local "
+"businesses, I would really like to see your leads to grow manifold by using "
+"it."
+msgstr ""
+
+#: functions/themes-page.php:75
+msgid ""
+"Single Click Theme Installation. It&#8217;s extremely easy to setup.Lead "
+"form guard with anti spam check method. You will get a true list of your "
+"customer.Responsive to all kind of Mobile & Tablet devices. 20 Professional "
+"designed logo for different niches. (Both PSD and PNG format) You can edit "
+"as per your need.50 Professional Images to turn your website to any "
+"different niche.You can easily put your contact detail on the top right "
+"corner of the page."
+msgstr ""
+
+#: functions/themes-page.php:78
+msgid "Buy Local business Theme"
+msgstr ""
+
+#: functions/themes-page.php:82
+msgid "Try Local business for FREE"
+msgstr ""
+
+#: functions/themes-page.php:96
+msgid "Black Bird Theme"
+msgstr ""
+
+#: functions/themes-page.php:100
+msgid ""
+"Blackbird Theme is a very clean and elegantly designed Responsive WordPress "
+"Theme. Its created with the aim to make your business website look "
+"professional to your visitors. "
+msgstr ""
+
+#: functions/themes-page.php:103
+msgid ""
+"Starting from the top header area, the Blackbird WordPress Theme allows you "
+"to upload your own Custom Logo and had a space on the top right to enter "
+"your contact details. This details are useful for the first time visitors as "
+"they can clearly see your contact details right on top.  "
+msgstr ""
+
+#: functions/themes-page.php:108
+msgid "Buy Black Bird Theme"
+msgstr ""
+
+#: functions/themes-page.php:112
+msgid "Try Black Bird Lite for FREE"
+msgstr ""
+
+#: functions/themes-page.php:127
+msgid "Andrina Theme"
+msgstr ""
+
+#: functions/themes-page.php:131
+msgid ""
+"The Andrina Theme allows the user to show his blogposts on the frontpage. "
+"Hence the main Home Page is always updated on the release of new blogposts. "
+"Hence the site is more Search Engine friendly."
+msgstr ""
+
+#: functions/themes-page.php:134
+msgid ""
+"The Theme had a simple layout which attracts the Client to the Website. "
+"Also, the professional and Clean design always suites the requirements of "
+"almost any kind of business Website. Andrina Theme is very simple to built "
+"and you don&#8217;t even need to be a code junkie to start using the Andrina "
+"Theme and get your website ready."
+msgstr ""
+
+#: functions/themes-page.php:139
+msgid "Buy Andrina Theme"
+msgstr ""
+
+#: functions/themes-page.php:143
+msgid "Try Andrina Lite for FREE"
+msgstr ""
+
+#: functions/themes-page.php:157
+msgid "Figero Theme"
+msgstr ""
+
+#: functions/themes-page.php:161
+msgid ""
+"Business website designs are best powered by Premium Ecommerce WordPress "
+"themes.  WordPress will become a boon if you are developing a website for "
+"your business. It will be really powerful and an affordable website design "
+"technique.  Building entrepreneurs are especially benefited from the most of "
+"this. "
+msgstr ""
+
+#: functions/themes-page.php:164
+msgid ""
+"There are several hundreds and thousands of customizable eCommerce wordpress "
+"themes available to download from various websites. Figero is one of the "
+"best eCommerce wordpress theme, It&#8217;s easy to use and simple to "
+"maintain. If you want to sell your digital items using paypal, It&#8217;s "
+"one of the easiest and the quickest way to go online.  Just put your few "
+"steps and you are ready to sell your item using paypal."
+msgstr ""
+
+#: functions/themes-page.php:169
+msgid "Buy Figero Theme"
+msgstr ""
+
+#: functions/themes-page.php:173
+msgid "Try Figero Lite for FREE"
+msgstr ""
+
+#: functions/themes-page.php:187
+msgid "Poloray Theme"
+msgstr ""
+
+#: functions/themes-page.php:191
+msgid ""
+"Poloray is a unique fully responsive wordpress theme, perfect for creative "
+"people and business agencies. By emphasizing your photos and content, it "
+"showcases your work in an amazing way. Easy to manage using Themes Options "
+"Panel, it comes also with a gallery, blog, Contact Page and other custom "
+"page templates to spice up your website."
+msgstr ""
+
+#: functions/themes-page.php:194
+msgid ""
+"Poloray  Theme is a responsive theme and is perfect for quick and easy site "
+"with a clean and modern interface and tons of features. The layout does not "
+"distract from your content, which is vital for a site devoted to business & "
+"blogging. "
+msgstr ""
+
+#: functions/themes-page.php:199
+msgid "Buy Poloray Theme"
+msgstr ""
+
+#: functions/themes-page.php:203
+msgid "Try Poloray Theme Lite for FREE"
+msgstr ""
+
+#: header.php:32
+msgid ""
+"Your most important notice information for site visitors with a link can "
+"come here."
+msgstr ""
+
+#: header.php:42
+msgid "Click Here"
+msgstr ""
+
+#: header.php:66
+msgid "Tap To Call"
+msgstr ""
+
+#: header.php:69
+msgid "Call 24 Hours: 1.888.222.5847"
+msgstr ""
+
+#: header.php:78
+msgid "Pages Navigation Menu"
+msgstr ""
+
+#: loop.php:22 single.php:23
+msgid "By"
+msgstr ""
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:28
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:34
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:7 searchform.php:8 sidebar-footer.php:53
+#: sidebar-footer.php:54
+msgid "Search"
+msgstr ""
+
+#: sidebar-footer.php:6
+msgid "About Setting Footer"
+msgstr ""
+
+#: sidebar-footer.php:8
+msgid ""
+"You can setup this footer area from the Widgets Section. Go to Appearance "
+"Widgets and drag and drop your required widget in footer."
+msgstr ""
+
+#: sidebar-footer.php:17
+msgid "Archives Widget"
+msgstr ""
+
+#: sidebar-footer.php:19
+msgid "January 2010"
+msgstr ""
+
+#: sidebar-footer.php:20
+msgid "December 2009"
+msgstr ""
+
+#: sidebar-footer.php:21
+msgid "November 2009"
+msgstr ""
+
+#: sidebar-footer.php:22
+msgid "October 2009"
+msgstr ""
+
+#: sidebar-footer.php:32 sidebar.php:7
+msgid "Categories"
+msgstr ""
+
+#: sidebar-footer.php:34
+msgid "Entertainment"
+msgstr ""
+
+#: sidebar-footer.php:35
+msgid "Technology"
+msgstr ""
+
+#: sidebar-footer.php:36
+msgid "Template Design"
+msgstr ""
+
+#: sidebar-footer.php:37
+msgid "Sports & Recreation"
+msgstr ""
+
+#: sidebar-footer.php:38
+msgid "Jobs & Lifestyle"
+msgstr ""
+
+#: sidebar-footer.php:48
+msgid "Search Site"
+msgstr ""
+
+#: sidebar.php:3
+msgid "Search:"
+msgstr ""
+
+#: sidebar.php:15
+msgid "Archives"
+msgstr ""
+
+#: single.php:26
+msgid "Posted in"
+msgstr ""
+
+#: single.php:40
+msgid "Post Tagged with "
+msgstr ""
+
+#: single.php:57
+msgid " Previous Post "
+msgstr ""
+
+#: single.php:59
+msgid "Next Post "
+msgstr ""
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

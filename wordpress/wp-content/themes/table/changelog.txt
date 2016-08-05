@@ -1,0 +1,7 @@
+*** Table Changelog ***
+
+2012.08.03 - version 1.0.1
+ * /includes/theme-options.php - Fixed option texts
+ 
+2012.07.31 - version 1.0 
+ * First release!

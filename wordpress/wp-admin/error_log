@@ -1,0 +1,8 @@
+[27-Jan-2015 06:17:00 UTC] PHP Warning:  Division by zero in /home/eved/public_html/wp-content/plugins/easy-contact-forms/easy-contact-forms-customformentrystatistics.php on line 186
+[02-Feb-2015 03:40:59 UTC] PHP Warning:  Division by zero in /home/eved/public_html/wp-content/plugins/easy-contact-forms/easy-contact-forms-customformentrystatistics.php on line 186
+[05-Feb-2015 11:31:25 UTC] PHP Warning:  Division by zero in /home/eved/public_html/wp-content/plugins/easy-contact-forms/easy-contact-forms-customformentrystatistics.php on line 186
+[05-Feb-2015 11:37:44 UTC] PHP Warning:  Division by zero in /home/eved/public_html/wp-content/plugins/easy-contact-forms/easy-contact-forms-customformentrystatistics.php on line 186
+[23-Feb-2015 05:46:51 UTC] PHP Fatal error:  Cannot redeclare catalog_admin_menu() (previously declared in /home/eved/public_html/wp-content/plugins/jivosite/jivosite.php:21) in /home/eved/public_html/wp-content/plugins/jivochat/jivosite.php on line 41
+[23-Feb-2015 05:46:53 UTC] PHP Fatal error:  Cannot redeclare catalog_admin_menu() (previously declared in /home/eved/public_html/wp-content/plugins/jivosite/jivosite.php:21) in /home/eved/public_html/wp-content/plugins/jivochat/jivosite.php on line 41
+[23-Feb-2015 05:46:54 UTC] PHP Fatal error:  Cannot redeclare catalog_admin_menu() (previously declared in /home/eved/public_html/wp-content/plugins/jivosite/jivosite.php:21) in /home/eved/public_html/wp-content/plugins/jivochat/jivosite.php on line 41
+[25-Aug-2015 08:18:25 UTC] PHP Warning:  Division by zero in /home/eved/public_html/wp-content/plugins/easy-contact-forms/easy-contact-forms-customformentrystatistics.php on line 186

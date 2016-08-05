@@ -1,0 +1,10 @@
+[03-May-2015 17:18:27 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 06:01:30 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 07:19:50 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 20:37:48 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[20-May-2015 07:03:57 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[11-Jun-2015 13:16:01 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[16-Jun-2015 20:54:41 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[26-Jun-2015 00:39:37 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[02-Jul-2015 05:22:29 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60
+[12-Jul-2015 07:01:16 Asia/Almaty] PHP Fatal error:  Call to undefined function add_action() in /home/eved/public_html/wp-content/plugins/hello.php on line 60

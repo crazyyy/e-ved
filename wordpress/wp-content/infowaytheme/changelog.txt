@@ -1,0 +1,82 @@
+== Changelog ==
+
+= Theme Name: infoway Pro Responsive=
+* * infoway Theme is created on 24/12/2012.
+
+= Version: 1.6.4=
+1.Select Dropdown Option added in lead capture.
+2.Lead capture captcha changed.
+3.Lead capture captcha style improved.
+
+
+= Version: 1.6.3=
+1.Updated Language file.
+
+= Version: 1.6.2=
+1.removed extra js file from themes
+
+= Version: 1.6.1=
+1.Home Slider jQuery change
+
+= Version: 1.6.0=
+1.Tab to call color button added
+2.Fronpage sidebar color added.
+3.improve frontpage slider.
+
+= Version: 1.6.0=
+1.Blog Page Pagination Added
+2.email received section improved.
+
+= Version: 1.5.9=
+1.Theme Option File Updated.
+
+= Version: 1.5.8=
+1.Add all delete option of leads.
+2.W3 HTML Validation Issue Fixed.
+3.W3 css Validation Issue Fixed.
+
+= Version: 1.5.7=
+1.Leadcapture form widgetized.
+
+= Version: 1.5.6=
+1.Sidebar Colors Update.
+2.Cpatcha issue fixed.
+
+= Version: 1.5.5=
+1.Gallery issue In Ie9 Solve.
+2. FTP upload isssue fixed.
+
+= Version: 1.5.4=
+1.RTL style converted.
+
+= Version: 1.5.3=
+1.New featured checkbox and radio add.
+2.Style Updated Contactform Fixed.
+
+= Version: 1.5.2=
+1.static page issue fixed.
+
+= Version: 1.5.1=
+1.Default css and jquery called issue fixed.
+2.Image Ratio issue fixed.
+
+= Version: 1.5 =
+* * Theme Style Updated
+
+= Version: 1.4 =
+* * Add Child Theme Functionality
+
+= Version: 1.3 =
+* * theme home page slider improve.
+
+= Version: 1.2 =
+* * theme home page updated.
+
+= Version: 1.1 =
+custom leadcapture feature add.
+
+= Version: 1.0 =
+
+
+
+

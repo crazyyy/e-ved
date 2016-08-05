@@ -1,0 +1,41 @@
+a,
+a:visited,
+#wp-calendar a,
+#footer a:hover {
+	color: #009AC7;
+}
+
+.flexslider .entry-title a,
+.entry-box .entry-title {
+	color: #666;
+}
+
+.flexslider:hover .entry-title a,
+.flexslider .entry-title a:hover,
+a.breaking-news:hover,
+.entry-box:hover .entry-title {
+	color: #009AC7 !important;
+}
+
+.searchsubmit,
+input[type="submit"],
+button {
+	background-color: #009AC7;
+}
+
+#secondary-nav,
+#footer { 
+	background: #666666; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#555555)); 
+	background: -webkit-linear-gradient(#777777, #555555); 
+	background: -moz-linear-gradient(center top, #777777 0%, #555555 100%); 
+	background: -moz-gradient(center top, #777777 0%, #555555 100%); 
+	background: -o-linear-gradient(top, #777777, #555555); 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#777777,endColorstr=#555555); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#777777, endColorstr=#555555)"; 
+}
+
+#secondary-nav .nav li a:hover, #secondary-nav .nav li.sfHover a { 
+	background: #666666; 
+}
+

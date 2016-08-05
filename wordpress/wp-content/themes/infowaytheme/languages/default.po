@@ -1,0 +1,193 @@
+# Copyright (C) 2012 Infoway Theme Pro
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Infoway Theme Pro 1.0\n"
+"Report-Msgid-Bugs-To: admin@inkthemes.comPOT-Creation-Date: 2012-01-11 "
+"12:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-08-24 13:05+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: define_template.php:2
+msgid "Home"
+msgstr ""
+
+#: define_template.php:3
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: define_template.php:4
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: define_template.php:5
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: define_template.php:6
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: define_template.php:7
+msgid "Blog Archives"
+msgstr ""
+
+#: define_template.php:8
+msgid "Return to %s"
+msgstr ""
+
+#: define_template.php:9
+msgid "By %2$s"
+msgstr ""
+
+#: define_template.php:10
+msgid "View all posts by %s"
+msgstr ""
+
+#: define_template.php:11
+msgid "Published %2$s"
+msgstr ""
+
+#: define_template.php:12
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: define_template.php:13
+msgid "Link to full-size image"
+msgstr ""
+
+#: define_template.php:14
+msgid "Edit"
+msgstr ""
+
+#: define_template.php:15
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: define_template.php:16
+msgid "Pages:"
+msgstr ""
+
+#: define_template.php:17
+msgid "Author Archives: %s"
+msgstr ""
+
+#: define_template.php:18
+msgid "About %s"
+msgstr ""
+
+#: define_template.php:19
+msgid "Page %s"
+msgstr ""
+
+#: define_template.php:20
+msgid "Category Archives: %s"
+msgstr ""
+
+#: define_template.php:21
+msgid "Main Menu"
+msgstr ""
+
+#: define_template.php:22
+msgid "Page"
+msgstr ""
+
+#: define_template.php:23
+msgid "Primary Widget Area"
+msgstr ""
+
+#: define_template.php:24
+msgid "The primary widget area"
+msgstr ""
+
+#: define_template.php:25
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: define_template.php:26
+msgid "The secondary widget area"
+msgstr ""
+
+#: define_template.php:27
+msgid "Home Page Right Feature Widget Area"
+msgstr ""
+
+#: define_template.php:28
+msgid "The Home Page Right Feature widget area"
+msgstr ""
+
+#: define_template.php:29
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: define_template.php:30
+msgid "The first footer widget area"
+msgstr ""
+
+#: define_template.php:31
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: define_template.php:32
+msgid "The Second footer widget area"
+msgstr ""
+
+#: define_template.php:33
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: define_template.php:34
+msgid "The Third footer widget area"
+msgstr ""
+
+#: define_template.php:35
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: define_template.php:36
+msgid "The Fourth footer widget area"
+msgstr ""
+
+#: define_template.php:37
+msgid "Search Results for: %s"
+msgstr ""
+
+#: define_template.php:38
+msgid "Nothing Found"
+msgstr ""
+
+#: define_template.php:39
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: define_template.php:40
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: define_template.php:41
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#: define_template.php:42
+msgid "and tagged %2$s."
+msgstr ""
+
+#: define_template.php:43
+msgid "Bookmark the"
+msgstr ""
+
+#: define_template.php:43
+msgid "Read More&nbsp;"
+msgstr ""
+
+#: define_template.php:43
+msgid "Take a Tour&nbsp;"
+msgstr ""

@@ -1,0 +1,1803 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pytheas v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-05 11:48:09+0000\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#@ wpex
+msgid "Not found"
+msgstr "Не найдено"
+
+#: 404.php:21
+#@ wpex
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Упс, что-то пошло не так."
+
+#: 404.php:22
+#@ wpex
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "К сожалению, такой страницы нет."
+
+#: admin/options-framework.php:173
+#: admin/options-framework.php:388
+#@ options_framework_theme
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-framework.php:204
+#@ options_framework_theme
+msgid "Clear"
+msgstr ""
+
+#: admin/options-framework.php:205
+#: options.php:16
+#@ options_framework_theme
+#@ wpex
+msgid "Default"
+msgstr "По умолчанию"
+
+#: admin/options-framework.php:206
+#@ options_framework_theme
+msgid "Select Color"
+msgstr ""
+
+#: admin/options-framework.php:251
+#@ options_framework_theme
+msgid "Save Options"
+msgstr ""
+
+#: admin/options-framework.php:252
+#@ options_framework_theme
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/options-framework.php:252
+#@ options_framework_theme
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:284
+#@ options_framework_theme
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:338
+#@ options_framework_theme
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-media-uploader.php:51
+#@ options_framework_theme
+msgid "No file chosen"
+msgstr ""
+
+#: admin/options-media-uploader.php:54
+#: admin/options-media-uploader.php:111
+#@ options_framework_theme
+msgid "Upload"
+msgstr ""
+
+#: admin/options-media-uploader.php:56
+#: admin/options-media-uploader.php:112
+#@ options_framework_theme
+msgid "Remove"
+msgstr ""
+
+#: admin/options-media-uploader.php:59
+#@ options_framework_theme
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: admin/options-media-uploader.php:83
+#@ options_framework_theme
+msgid "View File"
+msgstr ""
+
+#: admin/options-sanitize.php:232
+#@ options_framework_theme
+msgid "No Repeat"
+msgstr ""
+
+#: admin/options-sanitize.php:233
+#@ options_framework_theme
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/options-sanitize.php:234
+#@ options_framework_theme
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/options-sanitize.php:235
+#@ options_framework_theme
+msgid "Repeat All"
+msgstr ""
+
+#: admin/options-sanitize.php:248
+#@ options_framework_theme
+msgid "Top Left"
+msgstr ""
+
+#: admin/options-sanitize.php:249
+#@ options_framework_theme
+msgid "Top Center"
+msgstr ""
+
+#: admin/options-sanitize.php:250
+#@ options_framework_theme
+msgid "Top Right"
+msgstr ""
+
+#: admin/options-sanitize.php:251
+#@ options_framework_theme
+msgid "Middle Left"
+msgstr ""
+
+#: admin/options-sanitize.php:252
+#@ options_framework_theme
+msgid "Middle Center"
+msgstr ""
+
+#: admin/options-sanitize.php:253
+#@ options_framework_theme
+msgid "Middle Right"
+msgstr ""
+
+#: admin/options-sanitize.php:254
+#@ options_framework_theme
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/options-sanitize.php:255
+#@ options_framework_theme
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/options-sanitize.php:256
+#@ options_framework_theme
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/options-sanitize.php:269
+#@ options_framework_theme
+msgid "Scroll Normally"
+msgstr ""
+
+#: admin/options-sanitize.php:270
+#@ options_framework_theme
+msgid "Fixed in Place"
+msgstr ""
+
+#: admin/options-sanitize.php:344
+#@ options_framework_theme
+msgid "Normal"
+msgstr ""
+
+#: admin/options-sanitize.php:345
+#@ options_framework_theme
+msgid "Italic"
+msgstr ""
+
+#: admin/options-sanitize.php:346
+#@ options_framework_theme
+msgid "Bold"
+msgstr ""
+
+#: admin/options-sanitize.php:347
+#@ options_framework_theme
+msgid "Bold Italic"
+msgstr ""
+
+#: archive-portfolio.php:22
+#: archive-services.php:26
+#: taxonomy-portfolio_category.php:27
+#: taxonomy-services_category.php:27
+#@ wpex
+msgid "Browse"
+msgstr "Смотреть"
+
+#: archive-portfolio.php:24
+#: archive-services.php:28
+#: functions/widgets/widget-portfolio-posts-thumbs.php:97
+#: functions/widgets/widget-posts-thumbs.php:85
+#: taxonomy-portfolio_category.php:29
+#: taxonomy-services_category.php:29
+#@ wpex
+msgid "All"
+msgstr "Все"
+
+#: archive.php:24
+#, php-format
+#@ wpex
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: archive.php:26
+#, php-format
+#@ wpex
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: archive.php:26
+#@ wpex
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+#@ wpex
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:28
+#@ wpex
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: author-bio.php:12
+#, php-format
+#@ wpex
+msgid "About %s"
+msgstr "Про %s"
+
+#: author-bio.php:21
+#, php-format
+#@ wpex
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Смотреть все записи %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:28
+#, php-format
+#@ wpex
+msgid "All posts by %s"
+msgstr "Все записи %s"
+
+#: comments.php:27
+#, php-format
+#@ wpex
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:42
+#@ wpex
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:43
+#@ wpex
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:44
+#@ wpex
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:49
+#@ wpex
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:54
+#@ default
+msgid "Leave a Reply"
+msgstr ""
+
+#: content-none.php:13
+#@ wpex
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:17
+#, php-format
+#@ wpex
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? Тогда вам <a href=\"%1$s\">сюда</a>."
+
+#: content-none.php:21
+#@ wpex
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "К сожалению, ничего не найдено. Попробуйте изменить поисковый запрос."
+
+#: content-none.php:25
+#@ wpex
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Воспользуйтесь поиском."
+
+#: content-portfolio-related.php:32
+#: content-related-posts.php:26
+#@ wpex
+msgid "Related Articles"
+msgstr "Похожие записи"
+
+#: content-search.php:27
+#: content.php:60
+#@ wpex
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать полностью <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:50
+#: single-portfolio.php:36
+#: single.php:31
+#@ wpex
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: content.php:50
+#: single-portfolio.php:36
+#: single.php:31
+#@ wpex
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+#: content.php:50
+#: single-portfolio.php:36
+#: single.php:31
+#@ wpex
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: content.php:50
+#: single-portfolio.php:36
+#: single.php:31
+#@ wpex
+msgid "Comments closed"
+msgstr "Комментарии закрыты."
+
+#: footer.php:52
+#: options.php:71
+#@ wpex
+msgid "Theme by"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:164
+#: functions/recommend-plugins.php:76
+#@ wpex
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:165
+#: functions/recommend-plugins.php:77
+#@ wpex
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:166
+#: functions/recommend-plugins.php:78
+#, php-format
+#@ wpex
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:167
+#@ wpex
+msgid "Something went wrong."
+msgstr "Что-то пошло не так :("
+
+#: functions/class-tgm-plugin-activation.php:168
+#: functions/recommend-plugins.php:80
+#, php-format
+#@ wpex
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:169
+#: functions/recommend-plugins.php:81
+#, php-format
+#@ wpex
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:170
+#: functions/recommend-plugins.php:82
+#, php-format
+#@ wpex
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:171
+#: functions/recommend-plugins.php:83
+#, php-format
+#@ wpex
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:172
+#: functions/recommend-plugins.php:84
+#, php-format
+#@ wpex
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:173
+#: functions/recommend-plugins.php:85
+#, php-format
+#@ wpex
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:174
+#: functions/recommend-plugins.php:86
+#, php-format
+#@ wpex
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:175
+#: functions/recommend-plugins.php:87
+#, php-format
+#@ wpex
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:176
+#: functions/recommend-plugins.php:88
+#@ wpex
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:177
+#: functions/recommend-plugins.php:89
+#@ wpex
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:178
+#: functions/class-tgm-plugin-activation.php:490
+#: functions/recommend-plugins.php:90
+#@ wpex
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к инсталлеру плагину."
+
+#: functions/class-tgm-plugin-activation.php:179
+#: functions/class-tgm-plugin-activation.php:1846
+#: functions/recommend-plugins.php:91
+#@ wpex
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: functions/class-tgm-plugin-activation.php:180
+#, php-format
+#@ wpex
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все установленные плагины успешно активированы. %1$s"
+
+#: functions/class-tgm-plugin-activation.php:517
+#: functions/class-tgm-plugin-activation.php:2058
+#@ wpex
+msgid "Return to the Dashboard"
+msgstr "Вернуться на главную админки"
+
+#: functions/class-tgm-plugin-activation.php:545
+#, php-format
+#@ wpex
+msgid "The following plugin was activated successfully: %s."
+msgstr "Плагин успешно активирован: %s."
+
+#: functions/class-tgm-plugin-activation.php:704
+#@ wpex
+msgid "Dismiss this notice"
+msgstr "Скрыть это напоминание"
+
+#: functions/class-tgm-plugin-activation.php:1091
+#@ wpex
+msgid "External Link"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1096
+#@ wpex
+msgid "Private Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1099
+#@ wpex
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1103
+#@ wpex
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1106
+#@ wpex
+msgid "Required"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1106
+#@ wpex
+msgid "Recommended"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1109
+#@ wpex
+msgid "Not Installed"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1111
+#@ wpex
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ wpex
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1297
+#@ wpex
+msgid "Plugin"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1298
+#@ wpex
+msgid "Source"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1299
+#@ wpex
+msgid "Type"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1300
+#@ wpex
+msgid "Status"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1318
+#@ wpex
+msgid "Install"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1319
+#@ wpex
+msgid "Activate"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1544
+#@ wpex
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/class-tgm-plugin-activation.php:1829
+#@ wpex
+msgid "Install package not available."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ wpex
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1831
+#@ wpex
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1832
+#@ wpex
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1833
+#@ wpex
+msgid "Plugin install failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1834
+#@ wpex
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1845
+#@ wpex
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1955
+#@ wpex
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ wpex
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#: functions/class-tgm-plugin-activation.php:1965
+#@ wpex
+msgid "Show Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#: functions/class-tgm-plugin-activation.php:1965
+#@ wpex
+msgid "Hide Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1957
+#@ wpex
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ wpex
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1962
+#@ wpex
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ wpex
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ wpex
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ wpex
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1966
+#@ wpex
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ wpex
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/comments-callback.php:28
+#@ wpex
+msgid "Pingback:"
+msgstr ""
+
+#: functions/comments-callback.php:28
+#: functions/comments-callback.php:53
+#@ wpex
+msgid "Edit"
+msgstr " Редактировать"
+
+#: functions/comments-callback.php:51
+#, php-format
+#@ wpex
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s "
+
+#: functions/comments-callback.php:59
+#@ wpex
+msgid "Your comment is awaiting moderation."
+msgstr "Комментарий ожидает модерации"
+
+#: functions/comments-callback.php:67
+#@ wpex
+msgid "reply to comment"
+msgstr "Ответить"
+
+#: functions/meta/meta-services.php:16
+#: functions/meta/meta-slides.php:16
+#@ wpexuagraphite
+msgid "Post Options"
+msgstr ""
+
+#: functions/meta/meta-services.php:22
+#@ wpex
+msgid "Icon"
+msgstr "Иконка"
+
+#: functions/meta/meta-services.php:27
+#@ wpex
+msgid "Select your highlight icon option.<br/ > See <a href=\"http://fortawesome.github.com/Font-Awesome/\">Font Awesome</a> for previews."
+msgstr "Выберите свою иконку"
+
+#: functions/meta/meta-slides.php:22
+#@ wpex
+msgid "Video URL"
+msgstr ""
+
+#: functions/meta/meta-slides.php:23
+#@ wpex
+msgid "Enter in a video URL that is compatible with WordPress's built-in oEmbed feature."
+msgstr "Введите url Video"
+
+#: functions/meta/meta-slides.php:23
+#@ wpex
+msgid "Learn More"
+msgstr "Читать далее"
+
+#: functions/meta/meta-slides.php:29
+#@ wpex
+msgid "Link URL"
+msgstr ""
+
+#: functions/meta/meta-slides.php:30
+#@ wpex
+msgid "Enter a URL to link this slide to. Example: http://authenticthemes.com"
+msgstr ""
+
+#: functions/meta/meta-slides.php:36
+#@ wpex
+msgid "Link Target"
+msgstr ""
+
+#: functions/meta/meta-slides.php:37
+#@ wpex
+msgid "Select a target for the URL."
+msgstr ""
+
+#: functions/pagination.php:67
+#@ wpex
+msgid "Newer Posts"
+msgstr "Новые записи"
+
+#: functions/pagination.php:69
+#@ wpex
+msgid "Older Posts"
+msgstr "Предыдущие записи"
+
+#: functions/post-types/portfolio.php:36
+#@ wpex
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: functions/post-types/portfolio.php:38
+#: functions/post-types/services.php:38
+#: functions/post-types/slides.php:32
+#@ wpex
+msgid "Add New Item"
+msgstr "Добавить новую запись"
+
+#: functions/post-types/portfolio.php:39
+#: functions/post-types/portfolio.php:41
+#@ wpex
+msgid "Add New Portfolio Item"
+msgstr "Добавить новую запись в портфолио"
+
+#: functions/post-types/portfolio.php:40
+#@ wpex
+msgid "Edit Portfolio Item"
+msgstr "Редактировать запись в портфолио"
+
+#: functions/post-types/portfolio.php:42
+#: functions/post-types/services.php:42
+#: functions/post-types/slides.php:36
+#@ wpex
+msgid "View Item"
+msgstr "Смотреть записи"
+
+#: functions/post-types/portfolio.php:43
+#@ wpex
+msgid "Search Portfolio"
+msgstr "Искать портфолио"
+
+#: functions/post-types/portfolio.php:44
+#@ wpex
+msgid "No portfolio items found"
+msgstr "Не найдено ни одно портфолио"
+
+#: functions/post-types/portfolio.php:45
+#@ wpex
+msgid "No portfolio items found in trash"
+msgstr "Не найдено ни одно портфолио в корзине"
+
+#: functions/post-types/portfolio.php:67
+#: functions/post-types/portfolio.php:81
+#@ wpex
+msgid "Portfolio Tags"
+msgstr "Метки портфолио"
+
+#: functions/post-types/portfolio.php:68
+#@ wpex
+msgid "Portfolio Tag"
+msgstr "Метка портфолио"
+
+#: functions/post-types/portfolio.php:69
+#@ wpex
+msgid "Search Portfolio Tags"
+msgstr "Искать метки в портфолио"
+
+#: functions/post-types/portfolio.php:70
+#@ wpex
+msgid "Popular Portfolio Tags"
+msgstr "Популярные метки в портфолио"
+
+#: functions/post-types/portfolio.php:71
+#@ wpex
+msgid "All Portfolio Tags"
+msgstr "Все метки в портфолио"
+
+#: functions/post-types/portfolio.php:72
+#@ wpex
+msgid "Parent Portfolio Tag"
+msgstr "Родительская метка портфолио"
+
+#: functions/post-types/portfolio.php:73
+#@ wpex
+msgid "Parent Portfolio Tag:"
+msgstr "Родительская метка портфолио:"
+
+#: functions/post-types/portfolio.php:74
+#@ wpex
+msgid "Edit Portfolio Tag"
+msgstr "Редактировать метку портфолио"
+
+#: functions/post-types/portfolio.php:75
+#@ wpex
+msgid "Update Portfolio Tag"
+msgstr "Обновить метку портфолио"
+
+#: functions/post-types/portfolio.php:76
+#@ wpex
+msgid "Add New Portfolio Tag"
+msgstr "Добавить новую метку портфолио"
+
+#: functions/post-types/portfolio.php:77
+#@ wpex
+msgid "New Portfolio Tag Name"
+msgstr "Имя новой метки портфолио"
+
+#: functions/post-types/portfolio.php:78
+#@ wpex
+msgid "Separate portfolio tags with commas"
+msgstr "Разделяйте метки портфолио запятыми"
+
+#: functions/post-types/portfolio.php:79
+#@ wpex
+msgid "Add or remove portfolio tags"
+msgstr "Добавить или удалить метки портфолио"
+
+#: functions/post-types/portfolio.php:80
+#@ wpex
+msgid "Choose from the most used portfolio tags"
+msgstr "Выберите популярные метки портфолио"
+
+#: functions/post-types/portfolio.php:105
+#: functions/post-types/portfolio.php:119
+#@ wpex
+msgid "Portfolio Categories"
+msgstr "Категории портфолио"
+
+#: functions/post-types/portfolio.php:106
+#@ wpex
+msgid "Portfolio Category"
+msgstr "Категория портфолио"
+
+#: functions/post-types/portfolio.php:107
+#@ wpex
+msgid "Search Portfolio Categories"
+msgstr "Искать категории портфолио"
+
+#: functions/post-types/portfolio.php:108
+#@ wpex
+msgid "Popular Portfolio Categories"
+msgstr "Популярные категории портфолио"
+
+#: functions/post-types/portfolio.php:109
+#@ wpex
+msgid "All Portfolio Categories"
+msgstr "Все категории портфолио"
+
+#: functions/post-types/portfolio.php:110
+#@ wpex
+msgid "Parent Portfolio Category"
+msgstr "Родительская категория портфолио"
+
+#: functions/post-types/portfolio.php:111
+#@ wpex
+msgid "Parent Portfolio Category:"
+msgstr "Родительская категория портфолио:"
+
+#: functions/post-types/portfolio.php:112
+#@ wpex
+msgid "Edit Portfolio Category"
+msgstr "Редактировать категорию портфолио"
+
+#: functions/post-types/portfolio.php:113
+#@ wpex
+msgid "Update Portfolio Category"
+msgstr "Обновить категорию портфолио"
+
+#: functions/post-types/portfolio.php:114
+#@ wpex
+msgid "Add New Portfolio Category"
+msgstr "Добавить новую категорию портфолио"
+
+#: functions/post-types/portfolio.php:115
+#@ wpex
+msgid "New Portfolio Category Name"
+msgstr "Имя новой категории портфолио"
+
+#: functions/post-types/portfolio.php:116
+#@ wpex
+msgid "Separate portfolio categories with commas"
+msgstr "Разделяйте запятыми категории портфолио"
+
+#: functions/post-types/portfolio.php:117
+#@ wpex
+msgid "Add or remove portfolio categories"
+msgstr "Добавить или удалить категории портфолио"
+
+#: functions/post-types/portfolio.php:118
+#@ wpex
+msgid "Choose from the most used portfolio categories"
+msgstr "Выберите популярные категории портфолио"
+
+#: functions/post-types/portfolio.php:147
+#: functions/post-types/services.php:147
+#: functions/post-types/slides.php:64
+#@ column name
+msgid "Title"
+msgstr ""
+
+#: functions/post-types/portfolio.php:148
+#: functions/post-types/services.php:148
+#: functions/post-types/slides.php:65
+#@ wpex
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: functions/post-types/portfolio.php:149
+#: functions/post-types/services.php:149
+#@ wpex
+msgid "Category"
+msgstr "Рубрика"
+
+#: functions/post-types/portfolio.php:150
+#: functions/post-types/services.php:150
+#@ wpex
+msgid "Tags"
+msgstr "Метки"
+
+#: functions/post-types/portfolio.php:151
+#: functions/post-types/services.php:151
+#@ wpex
+msgid "Author"
+msgstr "Автор"
+
+#: functions/post-types/portfolio.php:152
+#: functions/post-types/services.php:152
+#@ wpex
+msgid "Comments"
+msgstr "Комментарии"
+
+#: functions/post-types/portfolio.php:153
+#: functions/post-types/services.php:153
+#@ wpex
+msgid "Date"
+msgstr "Дата"
+
+#: functions/post-types/portfolio.php:178
+#: functions/post-types/portfolio.php:188
+#: functions/post-types/portfolio.php:198
+#: functions/post-types/services.php:178
+#: functions/post-types/services.php:188
+#: functions/post-types/services.php:198
+#: functions/post-types/slides.php:89
+#@ wpex
+msgid "None"
+msgstr "Ничего"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: functions/post-types/portfolio.php:246
+#: functions/post-types/portfolio.php:37
+#@ default
+#@ wpex
+msgid "Portfolio Item"
+msgid_plural "Portfolio Items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/post-types/portfolio.php:257
+#@ default
+msgid "Portfolio Item Pending"
+msgid_plural "Portfolio Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/post-types/services.php:36
+#@ wpex
+msgid "Services"
+msgstr "Сервисы"
+
+#: functions/post-types/services.php:39
+#: functions/post-types/services.php:41
+#@ wpex
+msgid "Add New Services Item"
+msgstr "Добавить новую запись сервиса"
+
+#: functions/post-types/services.php:40
+#@ wpex
+msgid "Edit Services Item"
+msgstr "Редактировать запись сервиса"
+
+#: functions/post-types/services.php:43
+#@ wpex
+msgid "Search Services"
+msgstr "Искать сервисы"
+
+#: functions/post-types/services.php:44
+#@ wpex
+msgid "No services items found"
+msgstr "Не найдены сервисы"
+
+#: functions/post-types/services.php:45
+#@ wpex
+msgid "No services items found in trash"
+msgstr "Не найдены сервисы в корзине"
+
+#: functions/post-types/services.php:67
+#: functions/post-types/services.php:81
+#@ wpex
+msgid "Services Tags"
+msgstr "Метки сервисов"
+
+#: functions/post-types/services.php:68
+#@ wpex
+msgid "Services Tag"
+msgstr "Метка сервиса"
+
+#: functions/post-types/services.php:69
+#@ wpex
+msgid "Search Services Tags"
+msgstr "Искать метки сервиса"
+
+#: functions/post-types/services.php:70
+#@ wpex
+msgid "Popular Services Tags"
+msgstr "Популярные метки сервиса"
+
+#: functions/post-types/services.php:71
+#@ wpex
+msgid "All Services Tags"
+msgstr "Все метки сервиса"
+
+#: functions/post-types/services.php:72
+#@ wpex
+msgid "Parent Services Tag"
+msgstr "Родительская метка сервиса"
+
+#: functions/post-types/services.php:73
+#@ wpex
+msgid "Parent Services Tag:"
+msgstr "Родительская метка сервиса:"
+
+#: functions/post-types/services.php:74
+#@ wpex
+msgid "Edit Services Tag"
+msgstr "Редактировать метку сервиса"
+
+#: functions/post-types/services.php:75
+#@ wpex
+msgid "Update Services Tag"
+msgstr "Обновить метку сервиса"
+
+#: functions/post-types/services.php:76
+#@ wpex
+msgid "Add New Services Tag"
+msgstr "Добавить новую метку сервиса"
+
+#: functions/post-types/services.php:77
+#@ wpex
+msgid "New Services Tag Name"
+msgstr "Имя новой метки сервиса"
+
+#: functions/post-types/services.php:78
+#@ wpex
+msgid "Separate services tags with commas"
+msgstr "Разделяйте запятыми метки сервиса"
+
+#: functions/post-types/services.php:79
+#@ wpex
+msgid "Add or remove services tags"
+msgstr "Добавить или удалить метки сервиса"
+
+#: functions/post-types/services.php:80
+#@ wpex
+msgid "Choose from the most used services tags"
+msgstr "Выберите популярные метки сервиса"
+
+#: functions/post-types/services.php:105
+#: functions/post-types/services.php:119
+#@ wpex
+msgid "Services Categories"
+msgstr "Категории сервиса"
+
+#: functions/post-types/services.php:106
+#@ wpex
+msgid "Services Category"
+msgstr "Категория сервиса"
+
+#: functions/post-types/services.php:107
+#@ wpex
+msgid "Search Services Categories"
+msgstr "Искать категории сервиса"
+
+#: functions/post-types/services.php:108
+#@ wpex
+msgid "Popular Services Categories"
+msgstr "Популярные категории сервиса"
+
+#: functions/post-types/services.php:109
+#@ wpex
+msgid "All Services Categories"
+msgstr "Все категории сервиса"
+
+#: functions/post-types/services.php:110
+#@ wpex
+msgid "Parent Services Category"
+msgstr "Родительская категория сервиса"
+
+#: functions/post-types/services.php:111
+#@ wpex
+msgid "Parent Services Category:"
+msgstr "Родительская категория сервиса:"
+
+#: functions/post-types/services.php:112
+#@ wpex
+msgid "Edit Services Category"
+msgstr "Редактировать категории сервиса"
+
+#: functions/post-types/services.php:113
+#@ wpex
+msgid "Update Services Category"
+msgstr "Обновить категории сервиса"
+
+#: functions/post-types/services.php:114
+#@ wpex
+msgid "Add New Services Category"
+msgstr "Добавить новую категорию сервиса"
+
+#: functions/post-types/services.php:115
+#@ wpex
+msgid "New Services Category Name"
+msgstr "Имя новой категории сервиса"
+
+#: functions/post-types/services.php:116
+#@ wpex
+msgid "Separate services categories with commas"
+msgstr "Разделяйте запятыми категории сервиса"
+
+#: functions/post-types/services.php:117
+#@ wpex
+msgid "Add or remove services categories"
+msgstr "Добавить или удалить категории сервиса"
+
+#: functions/post-types/services.php:118
+#@ wpex
+msgid "Choose from the most used services categories"
+msgstr "Популярные категории сервиса"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: functions/post-types/services.php:246
+#: functions/post-types/services.php:37
+#@ default
+#@ wpex
+msgid "Services Item"
+msgid_plural "Services Items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/post-types/services.php:257
+#@ default
+msgid "Services Item Pending"
+msgid_plural "Services Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions/post-types/slides.php:30
+#: options.php:77
+#@ wpex
+msgid "Slides"
+msgstr "Слайды"
+
+#: functions/post-types/slides.php:31
+#@ wpex
+msgid "Slides Item"
+msgstr "Запись слайда"
+
+#: functions/post-types/slides.php:33
+#: functions/post-types/slides.php:35
+#@ wpex
+msgid "Add New Slides Item"
+msgstr "Добавить новый слайд"
+
+#: functions/post-types/slides.php:34
+#@ wpex
+msgid "Edit Slides Item"
+msgstr "Редактировать слайд"
+
+#: functions/post-types/slides.php:37
+#@ wpex
+msgid "Search Slides"
+msgstr "Искать слайды"
+
+#: functions/post-types/slides.php:38
+#@ wpex
+msgid "No slides items found"
+msgstr "Не найдены слайды"
+
+#: functions/post-types/slides.php:39
+#@ wpex
+msgid "No slides items found in trash"
+msgstr "Не найдены слайды в корзине"
+
+#: functions/recommend-plugins.php:79
+#@ wpex
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с плагином или API."
+
+#: functions/recommend-plugins.php:92
+#, php-format
+#@ wpex
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все установленные плагины успешно активированы. %s"
+
+#: functions/theme-setup.php:22
+#@ wpex
+msgid "Main"
+msgstr "Основное"
+
+#: functions/theme-setup.php:23
+#@ wpex
+msgid "Footer"
+msgstr "Футер"
+
+#: functions/widgets/widget-areas.php:10
+#@ wpex
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: functions/widgets/widget-areas.php:12
+#@ wpex
+msgid "Widgets in this area are used in the default sidebar."
+msgstr "Виджеты в этой области используются в сайдбаре по умолчанию."
+
+#: functions/widgets/widget-areas.php:23
+#@ wpex
+msgid "Footer 1"
+msgstr "Футер 1"
+
+#: functions/widgets/widget-areas.php:25
+#@ wpex
+msgid "Widgets in this area are used in the first footer column"
+msgstr "Виджеты в этой области используются в первой колонке футера."
+
+#: functions/widgets/widget-areas.php:33
+#@ wpex
+msgid "Footer 2"
+msgstr "Футер 2"
+
+#: functions/widgets/widget-areas.php:35
+#@ wpex
+msgid "Widgets in this area are used in the second footer column"
+msgstr "Виджеты в этой области используются во второй колонке футера."
+
+#: functions/widgets/widget-areas.php:43
+#@ wpex
+msgid "Footer 3"
+msgstr "Футер 3"
+
+#: functions/widgets/widget-areas.php:45
+#@ wpex
+msgid "Widgets in this area are used in the third footer column"
+msgstr "Виджеты в этой области используются в третьей колонке футера."
+
+#: functions/widgets/widget-areas.php:53
+#@ wpex
+msgid "Footer 4"
+msgstr "Футер 4"
+
+#: functions/widgets/widget-areas.php:55
+#@ wpex
+msgid "Widgets in this area are used in the fourth footer column"
+msgstr "Виджеты в этой области используются в четвертой колонке футера."
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:12
+#@ wpex
+msgid "WPEX - Portfolio Posts w/ Thumbs"
+msgstr "Записи из портфолио с миниатюрами"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:12
+#: functions/widgets/widget-posts-thumbs.php:12
+#@ wpex
+msgid "Display a list of recent standard posts with featured thumbnails."
+msgstr "Показывать список стандартных записей с миниатюрами"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:79
+#: functions/widgets/widget-posts-thumbs.php:67
+#@ wpex
+msgid "Featured Posts"
+msgstr "Избранные записи"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:89
+#: functions/widgets/widget-posts-thumbs.php:77
+#@ wpex
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:94
+#: functions/widgets/widget-posts-thumbs.php:82
+#@ wpex
+msgid "Select a Category:"
+msgstr "Выберите категорию:"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:108
+#: functions/widgets/widget-posts-thumbs.php:96
+#@ wpex
+msgid "Number to Show:"
+msgstr "Кол-во к показу:"
+
+#: functions/widgets/widget-portfolio-posts-thumbs.php:112
+#: functions/widgets/widget-posts-thumbs.php:100
+#@ wpex
+msgid "Offset (the number of posts to skip):"
+msgstr "Скрывать (номера записей, которые нужно скрыть):"
+
+#: functions/widgets/widget-posts-thumbs.php:12
+#@ wpex
+msgid "WPEX - Standard Posts w/ Thumbs"
+msgstr "Стандартные записи с миниатюрами"
+
+#: header.php:76
+#@ wpex
+msgid "Menu"
+msgstr "Меню"
+
+#: options.php:17
+#@ wpex
+msgid "Light Rounded"
+msgstr "Светлое закругление"
+
+#: options.php:18
+#@ wpex
+msgid "Dark Rounded"
+msgstr "Темное закругление"
+
+#: options.php:19
+#@ wpex
+msgid "Light Square"
+msgstr "Светлая площадь"
+
+#: options.php:20
+#@ wpex
+msgid "Dark Square"
+msgstr "Темная площадь"
+
+#: options.php:21
+#@ wpex
+msgid "Facebook"
+msgstr ""
+
+#: options.php:29
+#@ wpex
+msgid "General"
+msgstr ""
+
+#: options.php:33
+#@ wpex
+msgid "Custom Logo"
+msgstr "Собственное лого"
+
+#: options.php:34
+#@ wpex
+msgid "Upload your custom logo."
+msgstr "Загрузите собственное лого"
+
+#: options.php:39
+#@ wpex
+msgid "Exclude Header Image From Homepage?"
+msgstr "Исключить изображение шапки еа главной?"
+
+#: options.php:40
+#@ wpex
+msgid "Check box to exclude the header image from the homepage."
+msgstr "Отметьте, если хотите исключить."
+
+#: options.php:46
+#@ wpex
+msgid "Widgetized Footer?"
+msgstr "Футер с виджетами?"
+
+#: options.php:47
+#@ wpex
+msgid "Check box to enable the widgetized footer area."
+msgstr "Отметьте, если хотите футер с виджетами."
+
+#: options.php:53
+#@ wpex
+msgid "PrettyPhoto Theme"
+msgstr "Тема PrettyPhoto"
+
+#: options.php:54
+#@ wpex
+msgid "Choose your PrettyPhoto theme."
+msgstr "Выберите свою тему PrettyPhoto."
+
+#: options.php:61
+#@ wpex
+msgid "Header Right Content"
+msgstr "Контент в шапке справа"
+
+#: options.php:62
+#@ wpex
+msgid "Enter your custom content for the header top right section above the searchbox."
+msgstr "Введите сюда любой текст."
+
+#: options.php:68
+#@ wpex
+msgid "Custom Copyright"
+msgstr "Собственный копирайт"
+
+#: options.php:69
+#@ wpex
+msgid "Enter your custom copyright infor for the footer."
+msgstr "Введите собственный копирайт."
+
+#: options.php:83
+#@ wpex
+msgid "Toggle: Slideshow"
+msgstr "Переключение слайдшоу"
+
+#: options.php:84
+#@ wpex
+msgid "Check this box to enable automatic slideshow for your slides."
+msgstr "Автоматическое слайдшоу."
+
+#: options.php:94
+#@ wpex
+msgid "Toggle: Randomize"
+msgstr "Рандомно"
+
+#: options.php:95
+#@ wpex
+msgid "Check this box to enable the randomize feature for your slides."
+msgstr "Включите, если хотите, чтобы слайды показывались не по порядку."
+
+#: options.php:105
+#@ wpex
+msgid "Animation"
+msgstr "Анимация"
+
+#: options.php:106
+#@ wpex
+msgid "Select your animation of choice."
+msgstr "Выберите эффект анимации"
+
+#: options.php:116
+#@ wpex
+msgid "Direction"
+msgstr "Направление"
+
+#: options.php:117
+#@ wpex
+msgid "Select the direction for your slides. Slide animation only & if using the <strong>vertical direction</strong> all slides must have the same height."
+msgstr "Выберите направление слайдов: если использовать вертикальное направление, то слайды должны иметь одинаковую высоту."
+
+#: options.php:127
+#@ wpex
+msgid "SlideShow Speed"
+msgstr "Скорость слайд-шоу"
+
+#: options.php:128
+#@ wpex
+msgid "Enter your preferred slideshow speed in milliseconds."
+msgstr "Задайте скорость слайд-шоу (в милисекундах)."
+
+#: options.php:134
+#@ wpex
+msgid "Animation Speed"
+msgstr "Скорость анимации"
+
+#: options.php:135
+#@ wpex
+msgid "Enter your preferred animation speed in milliseconds."
+msgstr "Задайте скорость анимации (в милисекундах)."
+
+#: options.php:142
+#@ wpex
+msgid "Slider Alternative"
+msgstr "Альтернативный слайдер"
+
+#: options.php:143
+#@ wpex
+msgid "If you prefer to use another slider you can enter the <strong>shortcode</strong> here."
+msgstr "Если вы хотите использовать другой слайдер, то вы должны задать для него шорткод (<strong>shortcode</strong>) здесь."
+
+#: options.php:151
+#@ wpex
+msgid "Homepage"
+msgstr ""
+
+#: options.php:155
+#@ wpex
+msgid "Homepage Tagline"
+msgstr "Слоган для главной"
+
+#: options.php:156
+#@ wpex
+msgid "Enter your homepage tagline content. Leave blank to show nothing."
+msgstr "Введите здесь свой слоган. Остаьте пустым, если не хотите вводить слоган."
+
+#: options.php:158
+#@ wpex
+msgid "Homepage Tagline Sample"
+msgstr "Пример слогана главной"
+
+#: options.php:162
+#@ wpex
+msgid "Homepage Services Title"
+msgstr "Заголовок для сервисов на главной"
+
+#: options.php:163
+#@ wpex
+msgid "Enter your homepage services title."
+msgstr "Введите здесь заголовок для сервисов."
+
+#: options.php:165
+#@ wpex
+msgid "What We Do"
+msgstr "Наши примеры работ"
+
+#: options.php:170
+#@ wpex
+msgid "How Manny Services Posts"
+msgstr "Кол-во сервисов к показу"
+
+#: options.php:171
+#@ wpex
+msgid "Enter an integer for how many service posts to show on the homepage."
+msgstr "Введите кол-во сервисов для отображения на главной."
+
+#: options.php:177
+#@ wpex
+msgid "Show Recent Work?"
+msgstr "Показывать новые работы?"
+
+#: options.php:178
+#@ wpex
+msgid "Check box to show recent work on the homepage."
+msgstr "Отметьте, чтобы показывать последние работы на главной."
+
+#: options.php:184
+#@ wpex
+msgid "Recent Work Title"
+msgstr "Заголовок для последних работ"
+
+#: options.php:185
+#@ wpex
+msgid "Enter your custom title for the recent work section"
+msgstr "Введите заголовок для последних работ."
+
+#: options.php:187
+#@ wpex
+msgid "Recent Work"
+msgstr "Последние работы"
+
+#: options.php:191
+#@ wpex
+msgid "Home Many Portfolio Posts?"
+msgstr "Кол-во портфолио к показу?"
+
+#: options.php:192
+#@ wpex
+msgid "Enter an integer for how many portfolio posts to show on the homepage."
+msgstr "Введите кол-во портфолио для показа на главной."
+
+#: options.php:194
+#: options.php:216
+#@ wpex
+msgid "4"
+msgstr ""
+
+#: options.php:198
+#@ wpex
+msgid "Show Recent Blog Posts?"
+msgstr "Показывать последние записи блога?"
+
+#: options.php:199
+#@ wpex
+msgid "Check box to show recent blog posts on the homepage."
+msgstr "Отметьте, чтобы показывать последние записи на главной."
+
+#: options.php:205
+#@ wpex
+msgid "Recent Blog Posts Title"
+msgstr "Заголовок для последних записей блога"
+
+#: options.php:206
+#@ wpex
+msgid "Enter your custom title for the recent blog posts section"
+msgstr "Введите заголовок для последних записей."
+
+#: options.php:208
+#@ wpex
+msgid "Recent News"
+msgstr "Последние новости"
+
+#: options.php:213
+#@ wpex
+msgid "Home Many Blog Posts?"
+msgstr "Кол-во новостей к показу"
+
+#: options.php:214
+#@ wpex
+msgid "Enter an integer for how many blog posts to show on the homepage."
+msgstr "Кол-во новостей к показу на главной."
+
+#: options.php:222
+#@ wpex
+msgid "Blog"
+msgstr "Блог"
+
+#: options.php:226
+#@ wpex
+msgid "Featured Images On Single Posts?"
+msgstr "Избранные изображения в записях?"
+
+#: options.php:227
+#: options.php:241
+#: options.php:248
+#: options.php:255
+#@ wpex
+msgid "Check box to enable featured images on single blog posts."
+msgstr "Отметьте, если хотите показывать избранные изображения в записях."
+
+#: options.php:233
+#@ wpex
+msgid "Entry Excerpts?"
+msgstr "Ограничение записи?"
+
+#: options.php:234
+#@ wpex
+msgid "Check box to show excerpts rather then full posts on standard entries."
+msgstr "Отметьте, если хотите показывть анонс записи, а не полную статью."
+
+#: options.php:240
+#@ wpex
+msgid "Author Bio?"
+msgstr "Об авторе?"
+
+#: options.php:247
+#@ wpex
+msgid "Tags?"
+msgstr "Метки?"
+
+#: options.php:254
+#@ wpex
+msgid "Related Posts?"
+msgstr "Похожие записи?"
+
+#: options.php:265
+#@ wpex
+msgid "Social"
+msgstr "Социальные сети"
+
+#: options.php:270
+#@ wpex
+msgid "Social?"
+msgstr "Социальные сети?"
+
+#: options.php:271
+#@ wpex
+msgid "Check box to enable the social section in the main menu."
+msgstr "Отметьте, если хотите показывать."
+
+#: options.php:280
+#@ wpex
+msgid "Enter your "
+msgstr "Введите свое "
+
+#: options.php:280
+#@ wpex
+msgid " url"
+msgstr " url"
+
+#: options.php:280
+#@ wpex
+msgid "Include http:// at the front of the url."
+msgstr "Включая http:// в начале url."
+
+#: page.php:33
+#: single-portfolio.php:53
+#: single-services.php:47
+#: templates/template-fullwidth.php:29
+#@ wpex
+msgid "Edit Page"
+msgstr "Редактировать"
+
+#: search.php:13
+#, php-format
+#@ wpex
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: searchform.php:12
+#@ wpex
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: tag.php:17
+#, php-format
+#@ wpex
+msgid "Posts Tagged: %s"
+msgstr "Метки: %s"
+

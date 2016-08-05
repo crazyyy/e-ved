@@ -1,0 +1,196 @@
+/*  
+Theme Name: Businezz
+Theme URI: http://wordpressorg.ru/businezz/
+Description: A free WordPress theme by <a href="http://www.blogohblog.com" title="Free WordPress Themes">Blog Oh! Blog</a>
+Version: 1.0
+Author: Jai Nischal Verma
+Author URI: http://www.blogohblog.com
+*/
+
+/*********************Reset**********************/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+h1{font-size:25px}
+h2{font-size:23px}
+h3{font-size:21px}
+h4{font-size:19px}
+h5{font-size:17px}
+h6{font-size:15px}
+
+/*********************Body**********************/
+#top{padding-top:1px;background-image:url(images/top_bg.jpg);height:55px;background-repeat:repeat-x;width:100%;}
+body{font-family:Arial, Helvetica, sans-serif; font-size: 12px;line-height: 18px;color:#666;}
+.wrap{width:961px;margin-right:auto;margin-left:auto;}
+a:link, a:visited {color:#9D0000;}
+#top1_bg{background:url(images/top1_bg.jpg) repeat-x;height:88px;width:100%;}
+#content{padding-top:1px;background-image:url(images/content_bg.jpg);width:100%;height:auto;background-repeat:repeat-x;}
+#con{margin-top:10px;}
+#con_top{background-image:url(images/con_top.jpg);width:961px;height:18px;background-repeat:no-repeat;}
+#con_mid{background-image:url(images/con_mid.png);width:961px;height:auto;background-repeat:repeat-y;}
+#con_bottom{clear:both;background-image:url(images/con_bottom.png);width:961px;height:43px;background-repeat:no-repeat;}
+.line{background-image:url(images/line.png);width:594px;height:7px;background-repeat:no-repeat;}
+#inner_content{padding-left:20px;margin-left:10px;width:920px;background-image:url(images/con_inside_bg.jpg);height:auto;background-repeat:repeat-x;}
+#top1_right{margin-top:28px;text-align:right;float:right;font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;color:#000;}
+#left_side {width:590px; float:left; padding-top:10px;}
+h2.search {font-size:12px; border-bottom:1px solid #CCC; padding-bottom:5px; margin-bottom:20px;}
+
+/*********************Page Navigation**********************/
+.access{margin:8px auto;width:600px;display:block;float:left;}
+.access .menu ul{list-style:none;margin:0;}
+.access .menu li{float:left;position:relative;}
+.access a{display:block;text-decoration:none;color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; font-weight:bold; padding:0 15px;line-height:38px; }
+.access .menu li.current_page_item a {color:#fff; background-color:#4B4543;}
+.access ul ul{display:none;position:absolute;top:38px;left:0;float:left;-webkit-box-shadow:0px 3px 3px rgba(0,0,0,0.2);-moz-box-shadow:0px 3px 3px rgba(0,0,0,0.2);box-shadow:0px 3px 3px rgba(0,0,0,0.2);z-index:99999;	background-color:#4B4543;}
+.access ul ul ul{left:100%;top:0;}
+.access ul ul a{height:auto;line-height:1em;padding:10px;width:160px; color:#FFF;}
+.access li:hover > a{color:#fff; background-color:#4B4543;}
+.access ul ul li:hover > a{color:#fff;}
+.access ul li:hover > ul{display:block;}
+
+/*********************Search**********************/
+#search{background:url(images/search_bg.jpg) no-repeat;width:291px;height:31px;float:right;margin-top:10px;}
+.field{width:250px;line-height:30px;height:30px;background:none;vertical-align: middle;color: #A29E9D;border:none;padding-left:10px;}
+
+/*********************Logo & top links**********************/
+#logo{padding-top:30px;}
+#logo h1 a {font-style:italic; display:block; color:#CC0000; font-size:34px; text-decoration:none; text-shadow:1px 1px #FFF7EF;}
+#logo h2 {font-size:10px; letter-spacing:1px; font-weight:normal; padding:5px; text-transform:uppercase; color:#362F2D;}
+.toplinks {padding-bottom:5px;}
+.toplinks a {font-size:12px;font-weight:400;text-decoration:none;font-family:Arial, Helvetica, sans-serif;color:#A00000; font-weight:bold;}
+
+/*********************Slideshow**********************/
+.slides{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;padding-top:10px;}
+h2.slide_big {padding-bottom:10px; line-height:30px;}
+h2.slide_big a{font-size:22px;font-style:italic;text-decoration:none;font-weight:bold;color:#000000;}
+h3.slide_small{color:#333333;font-size:12px;font-weight:bold;font-style: italic; padding-bottom:10px;}
+.slide_img{margin-right:13px; float:left; border:solid 4px #f8f8f8; width:300px;}
+.slide_text{margin-top:9px; width:260px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#000; float:left; font-size:14px; line-height:22px;color:#666;}
+#nav2 {padding:10px 0 10px 0;}
+#nav2 a{font-weight:bold;padding-top:5px;width:30px;height:27px;float:left;margin-left:3px;color:#000;background-image:url(images/white_circle.jpg);background-repeat:no-repeat;text-align:center;text-decoration:none;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;}
+#nav2 a.highlight{font-weight:bold;padding-top:3px;width:30px;height:27px;float:left;margin-left:3px;color:#FFF;background-image:url(images/black_circle.png);background-repeat:no-repeat;text-align:center;}
+.readm:link, .readm:visited {background:url(images/continue_reading.png) no-repeat; display:block; width:175px; height:42px; text-indent:-10000px; margin-top:10px;}
+
+/**************** Gallery Page styles *********************/
+.gallery {text-align:center;}
+.gallery img {padding:2px; height:100px; width:100px;}
+.gallery a:hover {background-color:#ffffff;}
+.attachment {text-align:center;}
+.attachment img { padding:2px; border:1px solid #999999;}
+.attachment a:hover {background-color:#FFFFFF;}
+.imgnav {text-align:center;}
+.imgleft {float:left;}
+.imgleft a:hover {background-color:#FFFFFF;}
+.imgleft img{ padding:2px; border:1px solid #999999; height:100px; width:100px;}
+.imgright {float:right;}
+.imgright a:hover {background-color:#FFFFFF;}
+.imgright img{ padding:2px; border:1px solid #999999; height:100px; width:100px;}
+
+/**************** Content styling *********************/
+.post h2 {padding-bottom:25px; padding-top:10px; font-size:22px;}
+.post h2 a {color:#000; text-decoration:none;}
+h2.tits{font-family:Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;padding:20px 0 20px 0;color:#000;}
+h2.tits a {color:#000; text-decoration:none; text-transform:capitalize;}
+.blogpost {padding-top:30px; padding-bottom:15px; background:url(images/line.png) top no-repeat; position:relative;}
+.compop a {background:url(images/comments.png) left no-repeat; font-size:18px; font-weight:bold; position:absolute; top:30px; right:20px; padding-left:20px; text-decoration:none;}
+.blogpost h3 {padding-bottom:10px; font-size:22px;}
+.blogpost h3 a {text-decoration:none;}
+.blogpost h3 a:hover {color:#333;}
+.blogdate {padding:10px 10px 10px 24px; font-style:italic; background:url(images/date.gif) left no-repeat;}
+.content {padding-bottom:20px;}
+.content p {margin-bottom:20px; font-size:14px; line-height:22px;color:#666;}
+.content ul, .content ol  {margin:20px;}
+.content ul li {margin:5px; background:url(images/ul.gif) 0px 2px no-repeat; padding-left:25px; font-size:14px; line-height:22px;}
+.content ol li {margin:5px 5px 5px 25px; padding-left:5px; font-size:14px; line-height:22px; list-style:decimal;}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {margin-bottom:20px;}
+.alignleft {float:left; margin:0 15px 5px 0;}
+.alignright {float:right; margin:0 0 5px 15px;}
+.content blockquote { margin:0 0 10px 10px; padding:10px 20px 10px 20px; border:1px solid #ccc; background-color:#F4F5F5;}
+.content blockquote p {margin:0;}
+.cat_icon { font-weight:bold; color:#999; line-height:22px; font-size:12px;}
+.cat_icon a {text-decoration:underline;  background:url(images/folder.gif) left no-repeat; padding-left:22px;}
+.cat_icon a:hover {color:#333;}
+.tag_icon { font-weight:bold; color:#999; line-height:22px; font-size:12px;}
+.tag_icon a {text-decoration:underline;  background:url(images/tag.gif) left no-repeat; padding:2px 2px 2px 22px;}
+.tag_icon a:hover {color:#333;}
+
+/**************** Blog Page Template Pagination *********************/
+.paginate {padding-top:10px;}
+.paginate a {border:1px solid #CCC; padding:5px; text-decoration:none; font-weight:bold; margin-right:4px;}
+.paginate a.selected {background-color:#900; color:#FFF;border:1px solid #900; }
+
+/**************** Home Page Testimonials *********************/
+.about p {margin-bottom:15px; font-size:14px; line-height:22px;}
+.testi_img img {float:left; height:100px; width:100px; margin-right:10px; margin-bottom:10px; border:1px solid #ccc; padding:4px; background-color:#EBEBEB;}
+.testi {width:280px; float:left; margin:0px 10px 20px 0; line-height:20px; font-style:italic;}
+.testi p {font-size:12px;}
+.readmo {display:block;}
+
+/**************** Sidebar *********************/
+#right{margin-right:10px;padding-top:10px;float:right;}
+#right_top{background-image:url(images/right_top.png);width:295px;height:15px;background-repeat:no-repeat;}
+#right_mid{background-image:url(images/right_mid.png);width:295px;height:auto;background-repeat:repeat-y;}
+.sidebar h2{padding-left:15px;font-family:Arial, Helvetica, sans-serif;font-size:20px;font-style:italic;color:#CCC;line-height:40px;margin-left:10px;background-image:url(images/right_head_bg.png);width:260px;height:43px;font-weight:normal;background-repeat:no-repeat;}
+.sidebar li ul li a {font-weight:bold;color:#FFC;font-family:Arial, Helvetica, sans-serif;font-size:13px;text-decoration:none;background:url(images/bullet.png) 0px 4px no-repeat;padding-left:14px;}
+.sidebar li ul li a:hover {text-decoration:underline;}
+.sidebar li ul {padding:10px 0 10px 0;}
+.sidebar li ul li{padding-left:20px;width:255px;padding-bottom:10px;font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#999;}
+.sdate {font-size:10px;color:#6F6F6F;}
+.scontent {border-bottom:1px dotted #4F4F4F;padding:5px 0 10px 0;font-size:11px;}
+#right_end{background-image:url(images/right_bottom.png);width:295px;height:17px;background-repeat:no-repeat;}
+
+/**************** Footer *********************/
+.footmenu {padding-top:15px; padding-bottom:10px;}
+.footmenu li {display:inline; padding-right:20px;}
+.copyright {font-size:11px;}
+.copyright a {font-size:11px;}
+#footer{color:#FFF;font-family:Arial, Helvetica, sans-serif;font-size:13px;text-align:center;clear:both;background-image:url(images/footer_bg.png);width:100%;height:90px;background-repeat:repeat-x;}
+#footer a{line-height:20px;font-family:Arial, Helvetica, sans-serif;color:#7F7F7F;text-decoration:none;}
+
+/*********************Comments**********************/
+.comments-box {zoom: 1;margin: 20px 0 0 0;}
+.comments-box img {vertical-align: middle;}
+.comments-box h3 {color: #333;font-size: 1.4em;letter-spacing: 0;margin: 0;padding: 5px 0 5px 22px;border-bottom: 1px solid #ccc; width:96%;background:url(images/comments.png) no-repeat left;}
+#respond h3 {background:url(images/comment_add.png) no-repeat left;}
+#respond {margin: 20px 0 0 0;padding: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;-moz-border-radius-bottomleft: 5px;-moz-border-radius-bottomright: 5px;-khtml-border-radius: 5px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-webkit-border-bottom-right-radius: 5px;}
+#respond p {color: #777;line-height: 1.4em;margin: 10px 0 0 0;}
+.cancel-comment-reply {padding: 5px 0 0 0;}
+.cancel-comment-reply a {color: #ff0000; font-size:12px; font-weight:bold; text-decoration:underline;}
+.text {border: 1px solid #ddd;padding: 2px;color: #777;width: 200px;}
+/* framework for comments */
+.commentlist_bg {width:580px; margin:auto;}
+ol.commentlist a:link {text-decoration: none;}
+ol.commentlist li div.vcard cite.fn a.url:hover {text-decoration: none;}
+ol.commentlist {margin: 10px 0 0 0;padding: 0;}
+ol.commentlist li {margin: 10px 0 10px 0;padding: 20px;list-style-type: none; width:92%;border: 1px solid #DCDFC3;}
+ol.commentlist li div.vcard cite.fn {font-style: normal;font-weight: bold;}
+ol.commentlist li div.vcard cite.fn a.url {color: #222;}
+ol.commentlist li div.vcard img.avatar {float: right;}
+ol.commentlist li div.vcard img.avatar-32 {padding: 2px;background: #fff;border: 1px solid #ddd;}
+ol.commentlist li div.vcard img.photo {padding: 2px;background: #fff;border: 1px solid #ddd;}
+ol.commentlist li div.vcard span.says {color: #888;}
+ol.commentlist li div.comment-meta {margin: 3px 0 0 0;font-size: 0.9em;}
+ol.commentlist li div.comment-meta a {color: #aaa;text-decoration:none;}
+ol.commentlist li p {margin: 15px 0 0 0;line-height: 1.4em;}
+ol.commentlist li div.reply {border:none;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; color:#FFF; padding:5px; text-align:center; margin:5px 0 0 0px; width:55px; cursor:pointer; -moz-border-radius:7px;background-color:#362F2D;}
+ol.commentlist li div.reply:hover { background-color:#000;}
+ol.commentlist li div.reply a {color: #fff !important;}
+ol.commentlist li div.reply a:hover {color: #fff !important;text-decoration: none;}
+ol.commentlist li ul.children li {margin: 10px 0 0 0;border: 1px solid #ccc;}
+/* comment form */
+#commentform {margin-top: 5px;}
+#commentform input {width: 210px;margin: 5px 5px 1px 0;padding: 5px;border: 1px solid #ddd; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#commentform input:focus {border: 1px solid #191919;}
+#commentform .author {padding: 3px 3px 3px 5px;background: fff;color: #666;}
+#commentform .email {padding: 3px 3px 3px 5px;background: fff;color: #666;}
+#commentform .url {padding: 3px 3px 3px 5px;background: fff;color: #666;}
+#commentform textarea {width: 98%;height: 100px;padding: 2px;border: 1px solid #ddd;}
+#commentform textarea:focus {border: 1px solid #191919;}
+#commentform .submit {border:none;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; color:#FFF; padding:5px; text-align:center; margin:5px 0 10px 0px; width:170px; cursor:pointer; -moz-border-radius:7px;background-color:#362F2D;}
+#commentform .submit:hover { background-color:#000;}
