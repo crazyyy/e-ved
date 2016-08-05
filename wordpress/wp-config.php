@@ -46,7 +46,7 @@ define('NONCE_SALT',       '$Tw6z?M>IwVS:N%=4VR?rSH@IO{Aeu&Q6100i7J)M3Anq5d1_a78
  * Можно установить несколько блогов в одну базу данных, если вы будете использовать
  * разные префиксы. Пожалуйста, указывайте только цифры, буквы и знак подчеркивания.
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'eujdw_';
 
 /**
  * Язык локализации WordPress, по умолчанию английский.
@@ -69,3 +69,5 @@ if ( !defined('ABSPATH') )
 
 /** Инициализирует переменные WordPress и подключает файлы. */
 require_once(ABSPATH . 'wp-settings.php');
+//Disable File Edits
+define('DISALLOW_FILE_EDIT', true);
