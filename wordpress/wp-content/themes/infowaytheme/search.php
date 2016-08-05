@@ -2,22 +2,21 @@
 /**
  * The template for displaying Search Results pages.
  *
- * @package WordPress
  * 
  */
 ?>
 <?php get_header(); ?>
 <div class="heading_wrapper">
-  <div class="heading_container">
-    <div class="page-heading">
-      <h1 class="page_title"><?php printf(SEARCH_RESULT_FOR, '' . get_search_query() . ''); ?></h1>
+    <div class="heading_container">
+        <div class="page-heading">
+            <h1 class="page_title"><?php printf(__('Search Results for: %s', 'infoway'), '' . get_search_query() . ''); ?></h1>
+        </div>
     </div>
-  </div>
 </div>
 <div class="clear"></div>
 <div class="page-content">
-  <div class="grid_16 alpha">
-    <div class="content-bar">
+    <div class="grid_16 alpha">
+        <div class="content-bar">
             <?php if (have_posts()) : ?>
                 <!--Start Post-->
                 <?php get_template_part('loop', 'search'); ?>
@@ -26,13 +25,13 @@
                 <article id="post-0" class="post no-results not-found">
                     <header class="entry-header">
                         <h1 class="entry-title">
-                            <?php echo NOTHING_FOUND; ?>
+                            <?php _e('Nothing Found', 'infoway'); ?>
                         </h1>
                     </header>
                     <!-- .entry-header -->
                     <div class="entry-content">
                         <p>
-                            <?php echo SORRY_NOTHING_MATCHED_YOUR_SEARCH_CRITERIA_PLEASE_TRY_AGAIN_WITH_SOME_DIFFERENT_KEYWORD; ?>
+                            <?php _e('Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'infoway'); ?>
                         </p>
                         <?php get_search_form(); ?>
                     </div>
@@ -40,14 +39,18 @@
                 </article>
             <?php endif; ?>
             <div class="clear"></div>
-            <?php inkthemes_pagination(); ?> 
-          </div>
-  </div>
-  <div class="grid_8 omega">
-    <!--Start Sidebar-->
-    <?php get_sidebar(); ?>
-    <!--End Sidebar-->
-  </div>
+            <nav id="nav-single"> <span class="nav-previous">
+                    <?php next_posts_link(__('&larr; Older posts', 'infoway')); ?>
+                </span> <span class="nav-next">
+                    <?php previous_posts_link(__('Newer posts &rarr;', 'infoway')); ?>
+                </span> </nav>	
+        </div>
+    </div>
+    <div class="grid_8 omega">
+        <!--Start Sidebar-->
+        <?php get_sidebar(); ?>
+        <!--End Sidebar-->
+    </div>
 </div>
 </div>
 </div>

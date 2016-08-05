@@ -148,7 +148,7 @@
 */
 
 .clearfix {
-    /*zoom: 1;*/
+    zoom: 1;
 }
 /*  This query is applied for
     Protait Tablet ipad

@@ -12,19 +12,17 @@
 ?>
 <?php get_header(); ?> 
 <div class="page-content">
-        <div class="grid_16 alpha">
-          <div class="content-bar">
+    <div class="grid_16 alpha">
+        <div class="content-bar">
             <!--post start-->
-             <?php get_template_part('loop', 'index'); ?>
+            <?php get_template_part('loop', 'index'); ?>
             <!--End Post-->
-           </div>
         </div>
-        <div class="grid_8 omega">
-   		<!--Start Sidebar-->
-            <?php get_sidebar(); ?>
-          <!--End Sidebar-->  
-        </div>
-      </div>
-      </div>
-      </div>
+    </div>
+    <div class="grid_8 omega">
+        <!--Start Sidebar-->
+        <?php get_sidebar(); ?>
+        <!--End Sidebar-->  
+    </div>
+</div>
 <?php get_footer(); ?>

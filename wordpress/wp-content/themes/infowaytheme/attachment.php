@@ -2,49 +2,42 @@
 /**
  * The template for displaying attachments.
  *
- * @package WordPress
  */
 ?>
 <?php get_header(); ?>
-   <div class="clear"></div> 
-<div class="heading_wrapper">
-        <div class="heading_container">
-          <div class="page-heading">
-  	 <h1 class="page-title"><a href="#"><?php the_title(); ?></a>&nbsp;&nbsp;<img src="<?php echo get_template_directory_uri(); ?>/images/arrow.png"  alt="arrow"/></h1>
-          </div>
-        </div>
-      </div>
-<div class="page_container">
-        <div class="page-content">
-          <div class="fullwidth">
-        <h1 class="page-title"><?php the_title(); ?></h1>
-		<?php if (have_posts())
-        while (have_posts()) : the_post(); ?>
-            <p><a href="<?php echo get_permalink($post->post_parent); ?>" title="<?php esc_attr(printf(RETURN_TO, get_the_title($post->post_parent))); ?>" rel="gallery">
+<div class="fullwidth">
+    <h1 class="page-title"><?php the_title(); ?></h1>
+    <?php
+    if (have_posts())
+        while (have_posts()) : the_post();
+            ?>
+            <p>
+                <a href="<?php echo get_permalink($post->post_parent); ?>" title="<?php esc_attr(printf(__('Return to %s', 'infoway'), get_the_title($post->post_parent))); ?>" rel="gallery">
                     <?php
                     /* translators: %s - title of parent post */
                     printf(__('<span>&larr;</span> %s', 'infoway'), get_the_title($post->post_parent));
                     ?>
-                </a></p>
+                </a>
+            </p>
             <?php
-            printf(BY_AUTHOR, 'meta-prep meta-prep-author', sprintf('<a class="url fn n" href="%1$s" title="%2$s">%3$s</a>', get_author_posts_url(get_the_author_meta('ID')), sprintf(esc_attr__(VIEW_ALL_POST_BY), get_the_author()), get_the_author()
+            printf(__('By %2$s', 'infoway'), 'meta-prep meta-prep-author', sprintf('<a class="url fn n" href="%1$s" title="%2$s">%3$s</a>', get_author_posts_url(get_the_author_meta('ID')), sprintf(esc_attr__('View all posts by %s', 'infoway'), get_the_author()), get_the_author()
                     )
             );
             ?>
             <span>|</span>
             <?php
-            printf(PUBLISHED_BY, 'meta-prep meta-prep-entry-date', sprintf('<abbr title="%1$s">%2$s</abbr>', esc_attr(get_the_time()), get_the_date()
+            printf(__('Published %2$s', 'infoway'), 'meta-prep meta-prep-entry-date', sprintf('<abbr title="%1$s">%2$s</abbr>', esc_attr(get_the_time()), get_the_date()
                     )
             );
             if (wp_attachment_is_image()) {
                 echo ' | ';
                 $metadata = wp_get_attachment_metadata();
-                printf(FULL_SIZE_IS_PIXEL, sprintf('<a href="%1$s" title="%2$s">%3$s &times; %4$s</a>', wp_get_attachment_url(), esc_attr(LINK_TO_FULL_SIZE_IMAGE), $metadata['width'], $metadata['height']
+                printf(__('Full size is %s pixels', 'infoway'), sprintf('<a href="%1$s" title="%2$s">%3$s &times; %4$s</a>', wp_get_attachment_url(), esc_attr(__('Link to full-size image', 'infoway')), $metadata['width'], $metadata['height']
                         )
                 );
             }
             ?>
-            <?php edit_post_link(EDIT_TEXT, '', ''); ?>
+            <?php edit_post_link(__('Edit', 'infoway'), '', ''); ?>
             <!-- .entry-meta -->
             <?php
             if (wp_attachment_is_image()) :
@@ -67,29 +60,37 @@
                     $next_attachment_url = wp_get_attachment_url();
                 }
                 ?>
-                <p><a href="<?php echo $next_attachment_url; ?>" title="<?php echo esc_attr(get_the_title()); ?>" rel="attachment">
+                <p>
+                    <a href="<?php echo $next_attachment_url; ?>" title="<?php echo esc_attr(get_the_title()); ?>" rel="attachment">
                         <?php
                         $attachment_size = apply_filters('twentyten_attachment_size', 900);
                         echo wp_get_attachment_image($post->ID, array($attachment_size, 9999)); // filterable image width with, essentially, no limit for image height.
                         ?>
-                    </a></p>
-                <?php previous_image_link(false); ?>
-                <?php next_image_link(false); ?>
+                    </a>
+                </p>
+                <nav id="nav-single">
+                    <span class="nav-previous">
+                        <?php previous_image_link(); ?>
+                    </span>
+                    <span class="nav-next">
+                        <?php next_image_link(); ?>
+                    </span>
+                </nav>
             <?php else : ?>
-                <a href="<?php echo wp_get_attachment_url(); ?>" title="<?php echo esc_attr(get_the_title()); ?>" rel="attachment"><?php echo basename(get_permalink()); ?></a>
+                <a href="<?php echo wp_get_attachment_url(); ?>" title="<?php echo esc_attr(get_the_title()); ?>" rel="attachment">
+                    <?php echo basename(get_permalink()); ?>
+                </a>
             <?php endif; ?>
-            <?php if (!empty($post->post_excerpt))
-                the_excerpt(); ?>
-            <?php the_content(CONTINUE_READING); ?>
-            <?php wp_link_pages(array('before' => '' . PAGES_COLON, 'after' => '')); ?>
-            <?php inkthemes_posted_in(); ?>
-            <?php edit_post_link(EDIT_TEXT, ' ', ''); ?>
+            <?php
+            if (!empty($post->post_excerpt))
+                the_excerpt();
+            ?>
+            <?php the_content(__('Continue reading &rarr;', 'infoway')); ?>
+            <?php wp_link_pages(array('before' => '' . __('Pages:', 'infoway'), 'after' => '')); ?>
+            <?php infoway_posted_in(); ?>
+            <?php edit_post_link(__('Edit', 'infoway'), ' ', ''); ?>
             <?php comments_template(); ?>
         <?php endwhile; ?>
-        </div>
-        </div>
-      </div>
-	  </div>
-	  </div>
-	   <div class="clear"></div> 
-  <?php get_footer(); ?>
+</div>
+</div>
+<?php get_footer(); ?>

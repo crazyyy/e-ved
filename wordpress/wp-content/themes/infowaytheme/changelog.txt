@@ -1,82 +1,83 @@
 == Changelog ==
 
-= Theme Name: infoway Pro Responsive=
-* * infoway Theme is created on 24/12/2012.
+= Theme Name: Infoway =
 
-= Version: 1.6.4=
-1.Select Dropdown Option added in lead capture.
-2.Lead capture captcha changed.
-3.Lead capture captcha style improved.
+= Version 1.2.4
+* Support Link Button Added In WordPress Customize
 
+= Version 1.2.3
+* Theme option to WordPress customizer API migration.
 
-= Version: 1.6.3=
-1.Updated Language file.
+* Version 1.2.2
+***************************************
+1. Theme check issue fixed.
+2. All text domain matched with theme directory.
+3. Language .pot file matched with text domain.
 
-= Version: 1.6.2=
-1.removed extra js file from themes
+* Version 1.2.1
+***************************************
+1. Removed title tag from header.php file, used WordPress functionality to add title.
+2. Add license details.
+3. Removed unused functions.
 
-= Version: 1.6.1=
-1.Home Slider jQuery change
+* Version 1.2.0
+***************************************
+1. ereg_replace() is deprecated issue fixed.
+2. screen_icon() found in the file plugin-activation.php. Deprecated since version 3.8. issue fixed.
+3. Google fonts request has been blocked; the content must be served over HTTPS. Issue fixed.
+4. Text wrapped issue fixed.
+5. Miner changes in style.css.
+6. Enqueue stylesheets, instead of import.
+7. The flexible-width and fixed-width tags changed to fluid-layout and fixed-layout tags in WordPress 3.8, issue fixed.
 
-= Version: 1.6.0=
-1.Tab to call color button added
-2.Fronpage sidebar color added.
-3.improve frontpage slider.
+* Version 1.1.9
+***************************************
+1. Removed mixed content from wp_title.
+2. Html error fixed from header.php
 
-= Version: 1.6.0=
-1.Blog Page Pagination Added
-2.email received section improved.
+* Version 1.1.8
+***************************************
+1. Recommending for formget plugin notification added.
+2. Theme option issue fixed.
 
-= Version: 1.5.9=
-1.Theme Option File Updated.
+* Version 1.1.7
+***************************************
+1. Removed letter D from front-page.php
 
-= Version: 1.5.8=
-1.Add all delete option of leads.
-2.W3 HTML Validation Issue Fixed.
-3.W3 css Validation Issue Fixed.
+* Version 1.1.6
+***************************************
+1. Remove Parse Error In theme-page.php page
 
-= Version: 1.5.7=
-1.Leadcapture form widgetized.
+* Version 1.1.5
+***************************************
+1. Sanitize url of theme page file.
+  
+* Version 1.1.4
+***************************************
+1. Un-necessary loop removed.
 
-= Version: 1.5.6=
-1.Sidebar Colors Update.
-2.Cpatcha issue fixed.
+* Version 1.1.3
+***************************************
+1. Code optimized.
+2. Removed  @package WordPress.
+3. Removed function exists.
+4. Function added in after_setup_theme hook.
 
-= Version: 1.5.5=
-1.Gallery issue In Ie9 Solve.
-2. FTP upload isssue fixed.
+* Version 1.1.2
+***************************************
+1. Category page fatal error fixed.
 
-= Version: 1.5.4=
-1.RTL style converted.
+* Version 1.1.1
+***************************************
+1. Dynamic Image returning fatal error Fixed
 
-= Version: 1.5.3=
-1.New featured checkbox and radio add.
-2.Style Updated Contactform Fixed.
+* Version 1.1
+***************************************
+1. Unique Prefix
+2. Images License Specified
+3. WP Debug Error Fixed
+4. Untranslated Domain Fixed
 
-= Version: 1.5.2=
-1.static page issue fixed.
-
-= Version: 1.5.1=
-1.Default css and jquery called issue fixed.
-2.Image Ratio issue fixed.
-
-= Version: 1.5 =
-* * Theme Style Updated
-
-= Version: 1.4 =
-* * Add Child Theme Functionality
-
-= Version: 1.3 =
-* * theme home page slider improve.
-
-= Version: 1.2 =
-* * theme home page updated.
-
-= Version: 1.1 =
-custom leadcapture feature add.
-
-= Version: 1.0 =
-
-
-
-
+* Version 1.0
+***************************************
+1. Infoway Theme is created on 10/01/2013.

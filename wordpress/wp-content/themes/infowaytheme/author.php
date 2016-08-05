@@ -7,19 +7,18 @@
 <?php get_header(); ?>
 
 <div class="heading_wrapper">
-  <div class="heading_container">
-    <div class="page-heading">
-       <h1 class="page_title single-heading"><?php printf(AUTHOR_ARCHIVES, "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url(get_the_author_meta('ID')) . "' title='" . esc_attr(get_the_author()) . "' rel='me'>" . get_the_author() . "</a></span>"); ?></h1>
+    <div class="heading_container">
+        <div class="page-heading">
+            <h1 class="page_title single-heading"><?php printf(__('Author Archives: %s', 'infoway'), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url(get_the_author_meta('ID')) . "' title='" . esc_attr(get_the_author()) . "' rel='me'>" . get_the_author() . "</a></span>"); ?></h1>
+        </div>
     </div>
-  </div>
 </div>
 <div class="clear"></div>
 <div class="page-content">
-  <div class="grid_16 alpha">
-    <div class="content-bar">
+    <div class="grid_16 alpha">
+        <div class="content-bar">
             <?php if (have_posts()) : the_post(); ?>
-      
-               <?php
+                <?php
                 /* Queue the first post, that way we know who
                  * the author is when we try to get their name,
                  * URL, description, avatar, etc.
@@ -27,18 +26,16 @@
                  * We reset this later so we can run the loop
                  * properly with a call to rewind_posts().
                  */
-                if (have_posts())
-                    the_post();
                 ?>
                 <?php
 // If a user has filled out their description, show a bio on their entries.
                 if (get_the_author_meta('description')) :
                     ?>
                     <div id="entry-author-info">
-                        <div id="author-avatar"> <?php echo get_avatar(get_the_author_meta('user_email'), apply_filters('inkthemes_author_bio_avatar_size', 60)); ?> </div>
+                        <div id="author-avatar"> <?php echo get_avatar(get_the_author_meta('user_email'), apply_filters('infoway_author_bio_avatar_size', 60)); ?> </div>
                         <!-- #author-avatar -->
                         <div id="author-description">
-                            <h2><?php printf(ABOUT_ME, get_the_author()); ?></h2>
+                            <h2><?php printf(__('About %s', 'infoway'), get_the_author()); ?></h2>
                             <?php the_author_meta('description'); ?>
                         </div>
                         <!-- #author-description	-->
@@ -58,16 +55,20 @@
                 get_template_part('loop', 'author');
                 ?>
                 <div class="clear"></div>
-                <?php inkthemes_pagination(); ?> 
+                <nav id="nav-single"> <span class="nav-previous">
+                        <?php next_posts_link(__('&larr; Older posts', 'infoway')); ?>
+                    </span> <span class="nav-next">
+                        <?php previous_posts_link(__('Newer posts &rarr;', 'infoway')); ?>
+                    </span> </nav>
             <?php endif; ?>	
-          </div>
-  </div>
-  <div class="grid_8 omega">
-    <!--Start Sidebar-->
-    <?php get_sidebar(); ?>
-    <!--End Sidebar-->
-	</div>
-  </div>
+        </div>
+    </div>
+    <div class="grid_8 omega">
+        <!--Start Sidebar-->
+        <?php get_sidebar(); ?>
+        <!--End Sidebar-->
+    </div>
+</div>
 </div>
 </div>
 <?php get_footer(); ?>
