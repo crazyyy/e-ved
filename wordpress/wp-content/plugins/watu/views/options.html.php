@@ -86,7 +86,7 @@
 	
 	<div class="wrap">
 		<div class="postbox">
-			<div class="inside">
+			<div class="inside">
 				<h2><?php _e('Ajax in quizzes', 'watu'); ?></h2>
 				
 				<p><?php _e('Here you can select quizzes which will be submitted by regular post submit rather than using Ajax. You may want to do this mostly for the following reason:', 'watu')?></p>
@@ -95,10 +95,10 @@
 					<li><?php _e('To embed in the "Final screen" content from plugins that do not normally work well in Ajax mode.', 'watu')?></li>
 				</ul>
 				
-				<p><b><?php _e('The selected quizzes will NOT use Ajax when users submit them.', 'watu')?></b></p>
-				
-				<form name="post" action="" method="post" id="post">
-				<div>
+				<p><b><?php _e('The selected quizzes will NOT use Ajax when users submit them.', 'watu')?></b></p>
+				
+				<form name="post" action="" method="post" id="post">
+				<div>
 					<div class="postarea">
 						<?php foreach($quizzes as $quiz):?>
 							<input type="checkbox" name="no_ajax[]" value="<?php echo $quiz->ID?>" <?php if(!empty($quiz->no_ajax)) echo 'checked'?>> <?php echo stripslashes($quiz->name);?><br>

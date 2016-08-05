@@ -14,20 +14,20 @@ if(!empty($_REQUEST['submit']) and check_admin_referer('watu_options')) {
 	update_option('watu_use_the_content', $use_the_content);
 	update_option('watu_text_captcha', $_POST['text_captcha']);
 	
-	$roles = $wp_roles->roles;			
-			
-	foreach($roles as $key=>$r) {
-		if($key == 'administrator') continue;
-		
-		$role = get_role($key);
-
+	$roles = $wp_roles->roles;			
+			
+	foreach($roles as $key=>$r) {
+		if($key == 'administrator') continue;
+		
+		$role = get_role($key);
+
 		// manage Watu - allow only admin change this
-		if($is_admin) {
-			if(@in_array($key, $_POST['manage_roles'])) {					
- 				if(!$role->has_cap('watu_manage')) $role->add_cap('watu_manage');
-			}
+		if($is_admin) {
+			if(@in_array($key, $_POST['manage_roles'])) {					
+ 				if(!$role->has_cap('watu_manage')) $role->add_cap('watu_manage');
+			}
 			else $role->remove_cap('watu_manage');
-		}	// end if can_manage_options
+		}	// end if can_manage_options
 	} // end foreach role 
 		
 	print '<div id="message" class="updated fade"><p>' . __('Options updated', 'watu') . '</p></div>';	
