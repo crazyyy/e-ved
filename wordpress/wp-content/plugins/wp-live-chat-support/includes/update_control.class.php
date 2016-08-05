@@ -131,37 +131,50 @@ final class wplc_update_control {
     }
 
     public function wplc_filter_control_api_page($page_content) {
-        $args = array(
-            'slug' => $this->wplc_api_slug,
-        );
-        $data_array = array(
-            'method' => 'POST',
-            'body' => array(
-                'action' => 'api_validation',
-                'd' => get_option('siteurl'),
-                'request' => serialize($args),
-                'api_key' => get_option($this->wplc_option)
-        ));
-        $response = wp_remote_post($this->wplc_api_url, $data_array);
-        if (is_array($response)) {
-            if ( $response['response']['code'] == "200" ) {
-                $data = $response['body'];
-                $data = unserialize($data);
+        if (get_option($this->wplc_option)) {
+            $args = array(
+                'slug' => $this->wplc_api_slug,
+            );
+            $data_array = array(
+                'method' => 'POST',
+                'body' => array(
+                    'action' => 'api_validation',
+                    'd' => get_option('siteurl'),
+                    'request' => serialize($args),
+                    'api_key' => get_option($this->wplc_option)
+            ));
+            $response = wp_remote_post($this->wplc_api_url, $data_array);
+            if (is_array($response)) {
+                if ( $response['response']['code'] == "200" ) {
+                    $data = $response['body'];
+                    $data = unserialize($data);
+                } else {
+                    $data = array("message"=>"Unable to contact the host server at this point. Please try again later.");
+                }
             } else {
                 $data = array("message"=>"Unable to contact the host server at this point. Please try again later.");
-            }
-        } else {
-            $data = array("message"=>"Unable to contact the host server at this point. Please try again later.");
-        } 
-        $data_array = array(
-            "data" => $data,
-            "string" => $this->wplc_extension_string,
-            "form_name" => $this->wplc_form_name,
-            "option_name" => $this->wplc_option,
-            "button" => $this->wplc_button,
-            "is_valid" => $this->wplc_option_is_valid
+            } 
+            $data_array = array(
+                "data" => $data,
+                "string" => $this->wplc_extension_string,
+                "form_name" => $this->wplc_form_name,
+                "option_name" => $this->wplc_option,
+                "button" => $this->wplc_button,
+                "is_valid" => $this->wplc_option_is_valid
 
-        );
+            );
+        } else {
+            $data_array = array(
+                "data" => null,
+                "string" => $this->wplc_extension_string,
+                "form_name" => $this->wplc_form_name,
+                "option_name" => $this->wplc_option,
+                "button" => $this->wplc_button,
+                "is_valid" => 0
+
+            );
+            
+        }
 
 
         if (function_exists("wplc_build_api_check")) { return wplc_build_api_check($page_content,$data_array); }

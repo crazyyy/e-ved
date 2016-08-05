@@ -67,6 +67,8 @@ function wplc_call_to_server(data) {
 
             //Update your dashboard gauge
             if (response) {
+                if (response === "0") { if (window.console) { console.log('WP Live Chat Support Return Error'); } wplc_run = false;  return; }
+
                 response = JSON.parse(response);
                 
                 if(response.hasOwnProperty("error")){
@@ -394,7 +396,14 @@ jQuery(document).ready(function () {
        
     });
 
-    wplc_call_to_server(data);
+    if (typeof wplc_choose_accept_chats !== "undefined" && wplc_choose_accept_chats === "0" ) {
+        /* do nothing as they do not want to accept chats - kill the whole system! */
+        jQuery("#wplc_admin_chat_area_new").html("<div class='wplc_chat_area_temp'>"+ " " + wplc_localized_quote_string+"</div>");
+        jQuery("#wplc_admin_chat_holder").append(wplc_localized_offline_string)
+    } else {
+        wplc_call_to_server(data);
+    }
+
 
     jQuery("body").on("click", ".wplc_delete_message", function(e){
 
@@ -418,6 +427,32 @@ jQuery(document).ready(function () {
         });
 
     });
+
+
+    jQuery("body").on("change","#wplc_environment", function() {
+       
+        var selection = jQuery(this).val();
+        if (selection === '1') {
+            /* low grade host */
+            jQuery("#wplc_iterations").val(20);
+            jQuery("#wplc_delay_between_loops").val(1000000);
+        }
+        else if (selection === '2') {
+            /* low grade host */
+            jQuery("#wplc_iterations").val(55);
+            jQuery("#wplc_delay_between_loops").val(500000);
+        }
+        else if (selection === '3') {
+            /* low grade host */
+            jQuery("#wplc_iterations").val(60);
+            jQuery("#wplc_delay_between_loops").val(400000);
+        }
+        else if (selection === '4') {
+            /* low grade host */
+            jQuery("#wplc_iterations").val(200);
+            jQuery("#wplc_delay_between_loops").val(250000);
+        }
+    })
 
 });
 

@@ -36,7 +36,7 @@ if (get_option("WPLC_HIDE_CHAT") == true) {
         if (isset($wplc_settings["wplc_settings_color2"])) { $wplc_settings_color2 = $wplc_settings["wplc_settings_color2"]; } else { $wplc_settings_color2 = "FFFFFF"; }
         if (isset($wplc_settings["wplc_settings_color3"])) { $wplc_settings_color3 = $wplc_settings["wplc_settings_color3"]; } else { $wplc_settings_color3 = "EEEEEE"; }
         if (isset($wplc_settings["wplc_settings_color4"])) { $wplc_settings_color4 = $wplc_settings["wplc_settings_color4"]; } else { $wplc_settings_color4 = "666666"; }
-
+        if (isset($wplc_settings["wplc_environment"])) { $wplc_environment[intval($wplc_settings["wplc_environment"])] = "SELECTED"; }
 
         if(get_option("WPLC_HIDE_CHAT") == true) { $wplc_hide_chat = "checked"; } else { $wplc_hide_chat = ""; };
         
@@ -189,12 +189,14 @@ if (get_option("WPLC_HIDE_CHAT") == true) {
                     </small>
                   </td>
               </tr>
+
+
+
               <?php } ?>
-
-
-
-          </table>
-          <?php do_action('wplc_hook_admin_settings_main_settings_after'); ?>
+            </table>
+            <?php do_action('wplc_hook_admin_settings_main_settings_after'); ?>
+            
+          
       </div>
       <div id="tabs-2">
           <h3><?php _e("Chat Window Settings",'wplivechat')?></h3>
@@ -220,9 +222,25 @@ if (get_option("WPLC_HIDE_CHAT") == true) {
               </tr>
               <tr>
 
-                <?php if (!function_exists("wplc_pro_activate")) { ?>
+              <?php if (!function_exists("wplc_pro_activate")) { ?>
+              <tr>
+                  <td>
+                      <?php _e("Display typing indicator","wplivechat") ?> <i class="fa fa-question-circle wplc_light_grey wplc_settings_tooltip" title="<?php _e("Display a typing animation as soon as someone starts typing.","wplivechat") ?>"></i>
+                  </td>
+                  <td>
+                      <input type="checkbox" name="" value="" disabled />
+                      <small>
+                        <i> 
+                            <?php _e("available in the","wplivechat")?> 
+                            <a href="http://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=typing" title="<?php _e("Pro Add-on","wplivechat")?>" target="_BLANK"><?php _e("Pro Add-on","wplivechat")?></a> 
+                            <?php _e("only","wplivechat")?>
+                        </i>
+                    </small>
+                  </td>
+              </tr>
+              <tr>
                 <tr>
-            <!-- Chat Name-->
+
                 <td width='200' valign='top'>
                     <?php _e("Name","wplivechat")?>:
                 </td>
@@ -327,6 +345,43 @@ if (get_option("WPLC_HIDE_CHAT") == true) {
                   </td>
               </tr>              
           </table>
+
+          <?php if(!function_exists("wplc_chat_social_div") && !function_exists("wplc_pro_activate")){ ?>
+
+              <h3><?php _e("Social", 'wplivechat') ?></h3>
+              <hr>
+              <table class='form-table' width='100%'>
+                  <tbody>
+                      <tr>
+                          <td width='200' valign='top'><?php _e("Facebook URL", "wplivechat") ?>: <i class="fa fa-question-circle wplc_light_grey wplc_settings_tooltip" title="<?php _e("Link your Facebook page here. Leave blank to hide", "wplivechat") ?>"></i></td> 
+                          <td>
+                            <input id='wplc_social_fb' name='wplc_social_fb' placeholder="<?php _e("Facebook URL...", "wplivechat") ?>" type='text' disabled/> 
+                            <small>
+                              <i> 
+                                  <?php _e("available in the","wplivechat")?> 
+                                  <a href="http://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=social_media" title="<?php _e("Pro Add-on","wplivechat")?>" target="_BLANK"><?php _e("Pro Add-on","wplivechat")?></a> 
+                                  <?php _e("only","wplivechat")?>    
+                              </i>
+                            </small>
+                          </td>    
+                      </tr>
+                      <tr>
+                          <td width='200' valign='top'><?php _e("Twitter URL", "wplivechat") ?>: <i class="fa fa-question-circle wplc_light_grey wplc_settings_tooltip" title="<?php _e("Link your Twitter page here. Leave blank to hide", "wplivechat") ?>"></i></td> 
+                          <td>
+                            <input id='wplc_social_tw' name='wplc_social_tw' placeholder="<?php _e("Twitter URL...", "wplivechat") ?>" type='text' disabled/>  
+                            <small>
+                              <i> 
+                                  <?php _e("available in the","wplivechat")?> 
+                                  <a href="http://www.wp-livechat.com/purchase-pro/?utm_source=plugin&utm_medium=link&utm_campaign=social_media" title="<?php _e("Pro Add-on","wplivechat")?>" target="_BLANK"><?php _e("Pro Add-on","wplivechat")?></a> 
+                                  <?php _e("only","wplivechat")?>    
+                              </i>
+                            </small>
+                          </td>   
+                      </tr>
+                  </tbody>
+              </table>
+          <?php } ?>
+
           <?php do_action('wplc_hook_admin_settings_chat_box_settings_after'); ?>
 
       </div>
@@ -748,6 +803,8 @@ if (isset($wplc_settings['wplc_hide_when_offline']) && $wplc_settings['wplc_hide
             <p class="description"><?php _e('Blocking a user\'s IP Address here will hide the chat window from them, preventing them from chatting with you. Each IP Address must be on a new line', 'wplivechat'); ?></p>
         </div>
 
+
+
         <?php do_action("wplc_hook_settings_page_more_tabs"); ?>
         
     </div>
@@ -755,3 +812,4 @@ if (isset($wplc_settings['wplc_hide_when_offline']) && $wplc_settings['wplc_hide
     </form>
     
     </div>
+

@@ -106,9 +106,10 @@
 	<tr><td>%%DESCRIPTION%%</td><td><?php _e('The text entered in the description field.', 'watu') ?></td></tr>
 	<tr><td>%%AVG-POINTS%%</td><td><?php _e('The average points earned by the other quiz participants.', 'watu') ?></td></tr>
 	<tr><td>%%BETTER-THAN%%</td><td><?php _e('Shows the percentage of users collected less points on the quiz.', 'watu'); ?></td></tr>
+	<tr><td>%%EMAIL%%</td><td><?php _e('The user email address if we know it - use it only if you require / expect logged in users OR you have selected the option to email user their results (so email address will be requested).', 'watu') ?></td></tr>
 	</table>
 	
-	<p><?php printf(__('The shortcode %s lets you display a chart of user points vs. average collected points. It accepts arguments <b>%s</b> and <b>%s</b> to specify the colors of the bars.', 'watu'), '[watu-basic-chart]', 'your_color', 'avg_color');?></p>
+	<p><?php printf(__('The shortcode %s lets you display a chart of user points vs. average collected points. It accepts arguments <b>%s</b> and <b>%s</b> to specify the colors of the bars.', 'watu'), '<input type="text" value="[watu-basic-chart]" readonly="readonly" onclick="this.select();">', 'your_color', 'avg_color');?></p>
 	</div>
 	</div>
 	

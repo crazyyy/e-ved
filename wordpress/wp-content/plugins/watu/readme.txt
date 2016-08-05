@@ -134,7 +134,7 @@ Yes. You can create a folder called "watu" under your active WP theme folder. Th
 
 == Changelog ==
 
-= Changes in 2.7.6 =
+= Changes in 2.7.9 =
 - Added option "Do not alert the user when skipping a non-required question". 
 - The optional answer feedback will now be shown in "Show the answer of a question immediately" mode. Please note again this is not secure and shouldn't be used for real knowledge tests.
 - Added CSS overrides for themes that put radios and checkboxes on their own lines
@@ -142,6 +142,9 @@ Yes. You can create a folder called "watu" under your active WP theme folder. Th
 - You can enable non-admin WP roles to manage the plugin so you don't have to share your admin login with staff that has to manage quizzes.
 - Added sortable columns on the "view results" page and the associated shortcode.
 - Added honeypot option to prevent spam (it's not obtrusive like captchas and almost as efficient)
+- Added debug mode to display SQL errors
+- Added variable %%EMAIL%% for quizzes that require login or request user's email
+- You can now specify URL to redirect the user to upon achieving a given grade
 
 = Changes in 2.7 =
 - Added option to limit the number of logged in user attempts for quizzes that require login.

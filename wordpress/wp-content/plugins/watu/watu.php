@@ -1,12 +1,14 @@
 <?php
 /*
-Plugin Name: Watu
-Plugin URI: http://calendarscripts.info/watu-wordpress.html
-Description: Create exams and quizzes and display the result immediately after the user takes the exam. Watu for Wordpress is a light version of <a href="http://calendarscripts.info/watupro/" target="_blank">WatuPRO</a>. Check it if you want to run fully featured exams with data exports, student logins, timers, random questions and more. Free support and upgrades are available. Go to <a href="admin.php?page=watu_settings">Watu Settings</a> or <a href="tools.php?page=watu_exams">Manage Your Exams</a> 
+*Plugin Name: Watu
+*Plugin URI: http://calendarscripts.info/watu-wordpress.html
+*Description: Create exams and quizzes and display the result immediately after the user takes the exam. Watu for Wordpress is a light version of <a href="http://calendarscripts.info/watupro/" target="_blank">WatuPRO</a>. Check it if you want to run fully featured exams with data exports, student logins, timers, random questions and more. Free support and upgrades are available. Go to <a href="admin.php?page=watu_settings">Watu Settings</a> or <a href="tools.php?page=watu_exams">Manage Your Exams</a> 
 
-Version: 2.7.6
-Author: Kiboko Labs
-License: GPLv2 or later
+*Version: 2.7.9
+*Author: Kiboko Labs
+*License: GPLv2 or later
+*Text-domain: watu
+*Domain Path: /languages
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -39,6 +41,11 @@ include( WATU_PATH."/models/exam.php");
 function watu_init() {
 	global $wpdb;
 	load_plugin_textdomain('watu', false, dirname( plugin_basename( __FILE__ )).'/langs/' );
+	
+	if(get_option('watu_debug_mode'))  {		
+		$wpdb->show_errors();
+		if(!defined('DIEONDBERROR')) define( 'DIEONDBERROR', true );
+	}
 	
 	$version = get_bloginfo('version');
 	if($version <= 3.3) add_action('wp_enqueue_scripts', 'watu_vc_scripts');
@@ -76,7 +83,7 @@ function watu_init() {
 	if(function_exists('quicklatex_parser')) add_filter( 'watu_content',  'quicklatex_parser', 7);
 	
 	$version = get_option('watu_version');
-	if($version != '2.61') watu_activate(true);
+	if($version != '2.63') watu_activate(true);
 	
 	add_action('admin_notices', 'watu_admin_notice');
 }
@@ -240,8 +247,12 @@ function watu_activate($update = false) {
 		array("name"=>"times_to_take", "type"=>"TINYINT NOT NULL DEFAULT 0"),
 		array("name"=>"no_ajax", "type"=>"TINYINT NOT NULL DEFAULT 0"), /* don't use Ajax when submitting this quiz */
 		array("name"=>"no_alert_unanswered", "type"=>"TINYINT NOT NULL DEFAULT 0"), /* don't alert users for non-answering optional question */
+		array("name"=>"use_honeypot", "type"=>"TINYINT NOT NULL DEFAULT 0"), 
 	), WATU_EXAMS);	
 	
+	watu_add_db_fields(array(
+		array("name"=>"redirect_url", "type"=>"VARCHAR(255) NOT NULL DEFAULT ''"), 
+	), WATU_GRADES);	
 	
 	// db updates in 1.8
 	if(empty($version) or $version < 1.8) {
@@ -291,7 +302,7 @@ function watu_activate($update = false) {
 	}
 						
 	update_option( "watu_delete_db", '' );	
-	update_option( "watu_version", '2.61' );
+	update_option( "watu_version", '2.63' );
 	
 	update_option('watu_admin_notice', __('<h2>Thank you for activating Watu!</h2> <p>Please go to your <a href="tools.php?page=watu_exams">Quizzes page</a> to get started! If this is the first time you have activated the plugin there will be a small demo quiz automatically created for you. Feel free to explore it to get better idea how things work.</p>', 'watu'));
 }
@@ -319,7 +330,7 @@ function watu_vc_scripts() {
 			'watu-script',
 			WATU_URL.'script.js',
 			array(),
-			'2.3.4'
+			'2.3.6'
 		);
 		
 		$translation_array = array(

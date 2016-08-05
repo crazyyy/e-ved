@@ -27,6 +27,9 @@ jQuery(document).on("wplc_minimize_chat", function( e ) {
     jQuery("#wp-live-chat-2").hide();
     jQuery("#wp-live-chat-3").hide();
     jQuery("#wp-live-chat-4").hide();
+    jQuery("#wplc_social_holder").hide();
+    jQuery("#nifty_ratings_holder").hide();
+    jQuery("#nifty_ratings_holder").hide();
     jQuery("#wp-live-chat-react").hide();
     jQuery("#wp-live-chat-minimize").hide();
 
@@ -57,6 +60,10 @@ jQuery(document).on("wplc_animation_done", function(e) {
     jQuery("#wplc_chatbox").css("top",
         35+jQuery("#wplc_logo").height()+"px"
     );
+    jQuery("#wplc_chatbox").css("bottom",
+        jQuery("#wplc_user_message_div").outerHeight()+"px"
+    );
+
 
 });
 jQuery(document).on( "wplc_open_chat_2", function( e ) {
@@ -68,6 +75,8 @@ jQuery(document).on( "wplc_open_chat_2", function( e ) {
     wplc_chat_status = Cookies.get('wplc_chat_status');
     if (typeof e.wplc_online !== "undefined" && e.wplc_online === true) {
 	   jQuery("#wp-live-chat-4").show();
+       jQuery("#wplc_social_holder").show();
+       jQuery("#nifty_ratings_holder").show();
        jQuery.event.trigger({type: "wplc_animation_done"});
        jQuery("#wplc_chatmsg").focus();
     }

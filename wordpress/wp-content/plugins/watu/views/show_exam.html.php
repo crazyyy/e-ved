@@ -79,7 +79,7 @@ if($single_page != 1 and $answer_display!=2): ?>
 <input type="hidden" id="watuStartTime" name="start_time" value="<?php echo current_time('mysql'); ?>" />
 <?php if(!empty($exam->use_honeypot)):?>		
 		<input class="watu-beehive" type="text" value="_<?php echo md5('honeyforme' . $_SERVER['REMOTE_ADDR']) /* honeypot value */?>" id="watuAppSourceID<?php echo $exam->ID?>">
-		<input class="watu-beehive" name="ah_app_id" type="text" value="_<?php echo microtime() /* honeypot value */?>" id="watuAppID<?php echo $exam->ID?>">
+		<input class="watu-beehive" name="h_app_id" type="text" value="_<?php echo microtime() /* honeypot value */?>" id="watuAppID<?php echo $exam->ID?>">
 <?php endif;?>
 </form>
 </div>

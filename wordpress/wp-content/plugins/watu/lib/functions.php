@@ -112,3 +112,17 @@ function watu_notify($exam, $uid, $output, $who = 'admin') {
 	}
    // echo $message;   
 } // end watu_notify
+
+// replace user email in the quiz output / email output
+function watu_replace_email($email, $output) {
+	if(strstr($output, '%%EMAIL%%')) {
+		if(empty($email) and is_user_logged_in()) {
+			$current_user = wp_get_current_user();
+			$email = $current_user->user_email;
+		}		
+		
+		$output = str_replace('%%EMAIL%%', $email, $output); 
+	}
+	
+	return $output;
+}

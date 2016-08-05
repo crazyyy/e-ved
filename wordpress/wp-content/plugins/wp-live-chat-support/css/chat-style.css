@@ -41,7 +41,7 @@
     background-color:white;
     width: 50%;
     min-width:300px;
-    height:300px;
+    height:315px;
     background-color: #ffffff;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#FFF));
     background-image: -webkit-linear-gradient(top, #CCC, #FFF);
@@ -739,4 +739,48 @@
     
 }
 .wplc-palette-top { display:block; width:100%; height:25%; }
+
+#nifty_file_holder {
+    float: right;
+    margin-right: 13px;
+    margin-top: 4px;
+}
+
+.nifty_tedit_icon{
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+#nifty_text_editor_holder{
+    margin-top:3px;
+    margin-left:4px;
+}
+
+.wplc_faded_upsell {
+    color: lightgrey;
+}
+.wplc_chat_area_temp { padding:20px; }
+.offline-quote {
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #343434;
+}
+.offline-status {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+
+
+.wplc-logo { 
+
+    padding-top: 50px;
+    max-width: 100vw;
+    padding-bottom: 50px;
+
+}
 

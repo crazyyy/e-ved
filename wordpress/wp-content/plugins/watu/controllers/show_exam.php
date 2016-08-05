@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 if(isset($_REQUEST['do']) and $_REQUEST['do']=='show_exam_result' ) $exam_id = intval($_REQUEST['quiz_id']);
 
 if(!is_singular() and isset($GLOBALS['watu_client_includes_loaded'])) { #If this is in the listing page - and a quiz is already shown, don't show another.
@@ -7,6 +9,8 @@ if(!is_singular() and isset($GLOBALS['watu_client_includes_loaded'])) { #If this
 } 
 
 global $wpdb, $user_ID, $post, $achieved;
+$taker_email = '';
+$do_redirect = false;
 
 // select exam
 $exam = $wpdb->get_row($wpdb->prepare("SELECT * FROM ".WATU_EXAMS." WHERE ID=%d", $exam_id));
@@ -152,6 +156,7 @@ if(isset($_REQUEST['do']) and $_REQUEST['do']) { // Quiz Reuslts.
 				$gdescription = wpautop(stripslashes($grow->gdescription));
 				$g_id = $grow->ID;
 				if(!empty($grow->gdescription)) $grade .= wpautop(stripslashes($grow->gdescription));
+				if(!empty($grow->redirect_url)) $do_redirect = $grow->redirect_url;
 				break;
 			}
 		}
@@ -216,7 +221,13 @@ if(isset($_REQUEST['do']) and $_REQUEST['do']) { // Quiz Reuslts.
 	}
 	$final_output = apply_filters(WATU_CONTENT_FILTER, $output);
 	
-	echo $final_output;
+	// replace email if entered
+	$final_output = watu_replace_email($taker_email, $final_output);
+	
+	if(!empty($do_redirect)) {
+		if(empty($exam->no_ajax)) echo "WATU_REDIRECT:::".$do_redirect;
+	}
+	else echo $final_output;
 		
 	// update snapshot
 	$wpdb->query($wpdb->prepare("UPDATE ".WATU_TAKINGS." SET snapshot=%s WHERE ID=%d", $final_output, $taking_id)); 
@@ -228,6 +239,7 @@ if(isset($_REQUEST['do']) and $_REQUEST['do']) { // Quiz Reuslts.
 		if(strstr($email_output, '%%ANSWERS%%')) {		
 			$email_output = str_replace('%%ANSWERS%%', $result, $email_output);
 		}
+		$email_output = watu_replace_email($taker_email, $email_output);
 		$email_output = apply_filters(WATU_CONTENT_FILTER, $email_output);
 	} 
 	else $email_output = $final_output;
@@ -236,6 +248,7 @@ if(isset($_REQUEST['do']) and $_REQUEST['do']) { // Quiz Reuslts.
 	
 	do_action('watu_exam_submitted', $taking_id);
 	if(empty($exam->no_ajax)) exit;// Exit due to ajax call
+	if(!empty($exam->no_ajax) and !empty($do_redirect)) watu_redirect($do_redirect);
 
 } else { // Show The Test
 	$single_page = $exam->single_page;

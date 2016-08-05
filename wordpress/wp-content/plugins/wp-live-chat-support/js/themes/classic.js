@@ -26,6 +26,8 @@ jQuery(document).on("wplc_minimize_chat", function( e ) {
     jQuery("#wp-live-chat-2").hide();
     jQuery("#wp-live-chat-3").hide();
     jQuery("#wp-live-chat-4").hide();
+    jQuery("#wplc_social_holder").hide();
+    jQuery("#nifty_ratings_holder").hide();
     jQuery("#wp-live-chat-react").hide();
     jQuery("#wp-live-chat-minimize").hide();
 
@@ -70,11 +72,15 @@ jQuery(document).on( "wplc_open_chat_2", function( e ) {
     wplc_chat_status = Cookies.get('wplc_chat_status');
     if (typeof e.wplc_online !== "undefined" && e.wplc_online === true) {
        jQuery("#wp-live-chat-4").show();
+       jQuery("#wplc_social_holder").show();
+       jQuery("#nifty_ratings_holder").show();
        jQuery("#wplc_chatmsg").focus();
        jQuery("#wp-live-chat-1").css("cursor","pointer");
     } else if (e.wplc_online === false) {
        jQuery("#wp-live-chat-2").show();
        jQuery("#wp-live-chat-4").hide();
+       jQuery("#wplc_social_holder").hide();
+       jQuery("#nifty_ratings_holder").hide();
        jQuery("#wplc_chatmsg").focus();
        jQuery("#wp-live-chat-1").css("cursor","pointer");
    }
@@ -90,4 +96,8 @@ jQuery(document).ready(function() {
 	jQuery("body").on("click", "#wp-live-chat-1", function() {
 	    jQuery.event.trigger({type: "wplc_open_chat"});
 	});
+
+    jQuery("body").on("click", "#speeching_button", function() {
+
+    });
 });

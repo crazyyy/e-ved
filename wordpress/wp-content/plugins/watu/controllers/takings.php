@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 // select taking records for an exam
 function watu_takings($in_shortcode = false, $atts = null) {
 	global $wpdb, $post;

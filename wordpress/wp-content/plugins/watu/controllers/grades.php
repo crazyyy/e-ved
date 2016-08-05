@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 function watu_grades() {
    global $wpdb;
    
@@ -10,21 +12,22 @@ function watu_grades() {
    	$gtitle = sanitize_text_field($_POST['gtitle']);	   
 	   $gfrom = intval($_POST['gfrom']);
 	   $gto = intval($_POST['gto']);
+	   $redirect_url = sanitize_text_field($_POST['redirect_url']);
    }
    
    if(!empty($_POST['add']) and check_admin_referer('watu_grades')) {
    	$gdesc = $_POST['gdesc'];
    	$wpdb->query($wpdb->prepare("INSERT INTO ".WATU_GRADES." SET
-   		exam_id=%d, gtitle=%s, gdescription=%s, gfrom=%d, gto=%d",
-   		$quiz->ID, $gtitle, $gdesc, $gfrom, $gto));
+   		exam_id=%d, gtitle=%s, gdescription=%s, gfrom=%d, gto=%d, redirect_url=%s",
+   		$quiz->ID, $gtitle, $gdesc, $gfrom, $gto, $redirect_url));
    	watu_redirect("admin.php?page=watu_grades&quiz_id=".$quiz->ID);	
    }
    
    if(!empty($_POST['save']) and check_admin_referer('watu_grades')) {
    	$gdesc = $_POST['gdesc'.$_POST['id']];
    	$wpdb->query($wpdb->prepare("UPDATE ".WATU_GRADES." SET
-   		gtitle=%s, gdescription=%s, gfrom=%d, gto=%d WHERE ID=%d",
-   		$gtitle, $gdesc, $gfrom, $gto, $_POST['id']));
+   		gtitle=%s, gdescription=%s, gfrom=%d, gto=%d, redirect_url=%s WHERE ID=%d",
+   		$gtitle, $gdesc, $gfrom, $gto, $redirect_url, intval($_POST['id'])));
    	watu_redirect("admin.php?page=watu_grades&quiz_id=".$quiz->ID);
    }
    

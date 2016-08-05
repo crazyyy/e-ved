@@ -14,7 +14,7 @@
 }
 #wplc_chatbox {
     top: 35px;
-    bottom: 103px;
+    bottom: 113px;
     /* height: 100%; */
     z-index: 99999;
     position: absolute;
@@ -42,7 +42,7 @@
 #wplc_user_message_div {
     min-height: 100px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -152,10 +152,6 @@
 
 #wp-live-chat-2-img {
     padding-bottom: 5px;
-}
-
-#wplc_chatmsg {
-    width: 100%;
 }
 
 .wplc_offline {
@@ -564,4 +560,96 @@
 }
 #wp-live-chat-2-inner #wplc_start_chat_btn {
     width:100%;
+}
+#wplc_social_holder {
+    position: absolute;
+    width: 40px;
+    z-index: 9999999999 !important;
+    bottom: 0px;
+    right: 2px !important;
+    left: 330px !important;
+    font-size: 15px;
+}
+
+.wplc_social_icon {
+    margin-left: 3px;
+}
+
+.nifty_tedit_icon{
+    font-size: 12px !important;
+    padding-left: 6px;
+}
+
+#nifty_text_editor_holder{
+    margin-top:-10px;
+    margin-left:4px;
+}
+.nifty_attach_icon {
+    position: absolute;
+    bottom: 62px;
+    right: 20px;
+}
+
+#nifty_ratings_holder {
+    position: relative;
+    z-index: 9999999999999999999999;
+    left: 8px;
+    top: 4px;
+}
+
+#nifty_ratings_form {
+    position: absolute;
+    left: 65px;
+    top: -4px;
+    width: 220px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+input#nifty_ratings_comment {
+    width: 70%;
+    margin-bottom: 0px;
+    line-height: inherit;
+    font-size: 12px;
+    top: -2px;
+    position: relative;
+}
+
+#nifty_ratings_form:before {
+    top: 11px;
+    left: -7px;
+    border-width: 6px 7px 6px 0;
+    border-color: transparent #666;
+    content: "";
+    position: absolute;
+    border-style: solid;
+}
+
+#nifty_ratings_comment {
+    height: 25px !important;
+    margin-left: 2px;
+}
+
+#nifty_rating_button {
+    float: right;
+    border-style: none;
+    width: 27%;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+    top: 3px;
+    right: 2px;
+    position: relative;
+}
+
+#nifty_rating_thanks {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    width: 200px;
+}
+
+#nifty_recording {
+    margin-left: 5px;
 }

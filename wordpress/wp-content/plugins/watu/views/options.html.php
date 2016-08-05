@@ -9,8 +9,11 @@
 	
 	<form name="post" action="" method="post" id="post">
 	<div>
+			<p><input type="checkbox" name="debug_mode" value="1" <?php if(get_option('watu_debug_mode')) echo 'checked'?> /> <?php _e('Enable debug mode to see SQL errors. (Useful in case you have any problems)', 'watu')?></p>	
+			
 		<div class="postarea">
 			<div class="postbox">
+			
 			<h3 class="hndle">&nbsp;<span><?php _e('Default Answer Type', 'watu') ?></span></h3>
 			<div class="inside" style="padding:8px">
 			<?php 

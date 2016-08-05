@@ -6,13 +6,15 @@ if(!empty($_REQUEST['submit']) and check_admin_referer('watu_options')) {
 	$delete_db = empty($_POST['delete_db']) ? 0 : 1;
 	$delete_db_confirm = (empty($_POST['delete_db_confirm']) or $_POST['delete_db_confirm']!= 'yes') ? '' : 'yes';
 	$answer_type = ($_POST['answer_type'] == 'radio') ? 'radio' : 'checkbox';
-	$use_the_content = empty($_POST['use_the_content']) ? 0 : 1; 
+	$use_the_content = empty($_POST['use_the_content']) ? 0 : 1;
+	$debug_mode = empty($_POST['debug_mode']) ? 0 : 1;  
 	
 	update_option( "watu_delete_db", $delete_db );
 	update_option('watu_delete_db_confirm', $delete_db_confirm);
 	update_option('watu_answer_type', $answer_type);
 	update_option('watu_use_the_content', $use_the_content);
 	update_option('watu_text_captcha', $_POST['text_captcha']);
+	update_option('watu_debug_mode', $debug_mode);
 	
 	$roles = $wp_roles->roles;			
 			

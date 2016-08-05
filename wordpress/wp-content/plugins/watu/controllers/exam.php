@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 function watu_exams() {
 	global $wpdb;
 	$quiz_id = intval(@$_REQUEST['quiz']);

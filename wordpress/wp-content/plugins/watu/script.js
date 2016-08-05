@@ -77,7 +77,7 @@ Watu.nextQuestion = function(e, dir) {
 		else jQuery('#prev-question').show();
 	}
 	
-	if(jQuery('body').scrollTop() > 250) {	
+	if(jQuery(document).scrollTop() > 250) {	
 		jQuery('html, body').animate({
 	   		scrollTop: jQuery('#watu_quiz').offset().top -100
 	   }, 100);   
@@ -97,6 +97,12 @@ Watu.showAnswer = function(e) {
 		jQuery("#question-" + Watu.current_question).show();
 
 		jQuery("#show-answer").val(watu_i18n.show_answer);
+		
+		if(jQuery(document).scrollTop() > 250) {	
+			jQuery('html, body').animate({
+		   		scrollTop: jQuery('#watu_quiz').offset().top -100
+		   }, 100);   
+		}   
 		return;
 	}
 
@@ -122,6 +128,12 @@ Watu.showAnswer = function(e) {
 	} else {
 		jQuery("#show-answer").val("Next >");
 	}
+	
+	if(jQuery(document).scrollTop() > 250) {	
+		jQuery('html, body').animate({
+	   		scrollTop: jQuery('#watu_quiz').offset().top -100
+	   }, 100);   
+	}   
 }
 
 Watu.submitResult = function(e) {
@@ -231,6 +243,14 @@ Watu.success = function(r){
 			jQuery("#action-button").removeAttr("disabled");
 	 		return false;
 	 } 
+
+	 // redirect?
+	 if(r.indexOf('WATU_REDIRECT:::') > -1) {
+	 		parts = r.split(":::");
+	 		window.location = parts[1];
+	 		return true;
+	 }	 
+	 
 	jQuery('#watu_quiz').html(r);
 }
 Watu.error = function(){ jQuery('#watu_quiz').html('Error Occured');}

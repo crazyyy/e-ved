@@ -14,7 +14,7 @@
 }
 #wplc_chatbox {
     padding: 5px;
-    height: 200px;  
+    height: 190px;  
     overflow-y: auto;
     overflow-x:hidden;
     -webkit-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.5);
@@ -130,10 +130,6 @@
 
 #wp-live-chat-2-img {
     padding-bottom: 5px;
-}
-
-#wplc_chatmsg {
-    width: 100%;
 }
 
 .wplc_offline {
@@ -358,4 +354,89 @@
 
 #wp-live-chat-2-inner #wplc_start_chat_btn {
     width:100%;
+}
+
+#wplc_social_holder {
+    position: absolute;
+    top: 2px;
+    width: 20px;
+}
+
+.nifty_tedit_icon{
+    font-size: 12px !important;
+    padding-left: 6px;
+}
+
+#nifty_text_editor_holder {
+    margin-top: -8px;
+    margin-left: 4px;
+}
+
+.nifty_attach_icon{
+    position:absolute;
+    bottom:10px;
+    right: 10px;
+}
+
+#nifty_ratings_holder {
+    position: absolute;
+    top: -35px;
+    left: 70px;
+}
+
+#nifty_ratings_form {
+    position: absolute;
+    left: 65px;
+    top: -3px;
+    width: 250px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+input#nifty_ratings_comment {
+    width: 70%;
+    margin-bottom: 0px;
+    line-height: inherit;
+    font-size: 12px;
+    top: -2px;
+    position: relative;
+}
+
+#nifty_ratings_form:before {
+    top: 11px;
+    left: -7px;
+    border-width: 6px 7px 6px 0;
+    border-color: transparent #666;
+    content: "";
+    position: absolute;
+    border-style: solid;
+}
+
+#nifty_ratings_comment {
+    height: 25px !important;
+    margin-left: 2px;
+}
+
+#nifty_rating_button {
+    float: right;
+    border-style: none;
+    width: 27%;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+    top: 3px;
+    right: 2px;
+    position: relative;
+}
+
+#nifty_rating_thanks {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    width: 200px;
+}
+
+#nifty_recording {
+    margin-left: 5px;
 }
