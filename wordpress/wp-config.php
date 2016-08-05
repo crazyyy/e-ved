@@ -1,18 +1,4 @@
 <?php
-/**
- * Основные параметры WordPress.
- *
- * Этот файл содержит следующие параметры: настройки MySQL, префикс таблиц,
- * секретные ключи, язык WordPress и ABSPATH. Дополнительную информацию можно найти
- * на странице {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php} Кодекса. Настройки MySQL можно узнать у хостинг-провайдера.
- *
- * Этот файл используется сценарием создания wp-config.php в процессе установки.
- * Необязательно использовать веб-интерфейс, можно скопировать этот файл
- * с именем "wp-config.php" и заполнить значения.
- *
- * @package WordPress
- */
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
@@ -25,7 +11,8 @@ define('DB_USER', 'eved_wp1402');
 define('DB_PASSWORD', '3v3d3v3d');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'srv-cpaneldb02.ps.kz');
+// define('DB_HOST', 'srv-cpaneldb02.ps.kz');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');

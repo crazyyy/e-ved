@@ -10,9 +10,9 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
-RewriteCond %{HTTP_HOST} ^vedkz\.kz$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.vedkz\.kz$
-RewriteRule ^/?$ "http\:\/\/e\-ved\.kz\/" [R=301,L]
+#RewriteCond %{HTTP_HOST} ^vedkz\.kz$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.vedkz\.kz$
+#RewriteRule ^/?$ "http\:\/\/e\-ved\.kz\/" [R=301,L]
 
 
 # BEGIN Shieldfy
